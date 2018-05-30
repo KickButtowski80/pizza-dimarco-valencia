@@ -91,4 +91,5 @@ Rails.application.configure do
   
   
   config.assets.digest = true
+  config.serve_static_files = true
 end
