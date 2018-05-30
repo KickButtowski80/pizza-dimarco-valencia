@@ -1,7 +1,7 @@
 <div class="container">
    <div class="row" style="padding-bottom: 70px;">
       <div class="col-md-12 well">
-         <%= link_to dinner_path do %>
+         <%= link_to lunch_url do %>
            <%= image_tag "/assets/lunch.logo.png", id: "lunch-logo" %>
            <span id="lunch-logo-span" style="font-size: 50px;padding-left: 290px;">lunch</span>
          <% end %>
@@ -11,7 +11,7 @@
       <div class="row">
       <div class=" col-md-12 well">
       
-         <%= link_to lunch_path do %>            
+         <%= link_to dinner_path do %>            
             <span id="dinner-logo-span" style="font-size: 50px;padding-right: 290px;">dinner</span>           
             <%= image_tag "/assets/dinner.logo.png", id: "dinner-logo" %>            
          <% end %>
