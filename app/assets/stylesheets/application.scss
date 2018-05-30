@@ -75,7 +75,11 @@
     min-height: 100vh;
 }
 
-
+#lunch-logo,
+#dinner-logo {
+    width: 15em;
+    // height: 100;
+}
 
 
  @media only screen and (max-width: 375px){
