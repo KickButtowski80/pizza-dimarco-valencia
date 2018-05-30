@@ -86,8 +86,11 @@
  @media only screen and (min-width: 720px){
      .container-fluid,.col-md-4,.row {
          height: 100%;
-         margin-top: 20px;
     }
+    
+     .jumbotron{
+       margin-bottom: 30px;
+      }
 }
  @media only screen and (min-width: 769px){
      #hide-min769 {
@@ -105,8 +108,8 @@
          height: 100%;
     }
     
-         .jumbotron{
-        margin-bottom: 0px;
-       }
+      .jumbotron{
+       margin-bottom: 0px;
+      }
 }  
  
