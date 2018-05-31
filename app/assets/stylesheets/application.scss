@@ -106,16 +106,18 @@ body {
 
 #lunch-logo-span {
  font-size: 50px;
- padding-left: 290px;
+ float: right;
+ line-height: 155px;
 }
 
 #dinner-logo-span {
- font-size: 50px;
- padding-right: 290px;
+ font-size: 46px;
+ float: left;
+ line-height: 155px;
 }
 
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 446px) {
  #fax {
   font-size: 30px;
  }
@@ -144,17 +146,15 @@ body {
  }
 }
 
-@media only screen and (min-width: 769px) {
- #hide-min769 {
+@media only screen and (min-width: 992px) {
+ #hide-min992 {
   display: none;
  }
 
- 
-
 }
 
-@media only screen and (max-width: 769px) {
- #hide-max769 {
+@media only screen and (max-width: 992px) {
+ #hide-max992 {
   display: none;
 
  }
@@ -169,12 +169,12 @@ body {
 
 
 @media only screen and (min-width: 768px) {
- #lunch-logo-span {
+ #lunch-logo-span1 {
   font-size: 50px;
   padding-left: 159px;
  }
 
- #dinner-logo-span {
+ #dinner-logo-span1 {
   font-size: 50px;
   padding-right: 139px;
  }
