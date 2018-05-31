@@ -8,6 +8,17 @@
      text-decoration: none;
 }
 
+      a{
+       
+       color: rgb(178, 23, 67);
+      }
+      
+      a:hover, a:visited, a:link, a:active
+      {
+          text-decoration: none;
+          
+          // color: rgb(219, 207, 37);
+      }
  .navbar-inverse {
      background-color: #a94442;
      border-color: #f90909;
@@ -81,6 +92,18 @@
     // height: 100;
 }
 
+   #lunch-logo-span{          
+       font-size: 50px;
+       padding-left: 290px;
+      }   
+     
+     #dinner-logo-span{
+      font-size: 50px;
+      padding-right: 290px;
+      }
+      
+
+   
 
  @media only screen and (max-width: 425px){
      #fax{
@@ -124,4 +147,18 @@
        margin-bottom: 0px;
       }
 }  
+
+
+ @media only screen and  (min-width: 768px)   {
+     #lunch-logo-span{          
+        font-size: 50px;
+        padding-left: 159px;
+       }   
+     
+     #dinner-logo-span{
+      font-size: 50px;
+      padding-right: 139px;
+      }
+  }  
+ 
  
