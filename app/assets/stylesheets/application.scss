@@ -1,164 +1,185 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
- #tel,#fax{
-     font-size: 35px;
-     font-weight: 500;
-     color: black;
-     text-decoration: none;
+#tel,
+#fax {
+ font-size: 35px;
+ font-weight: 500;
+ color: black;
+ text-decoration: none;
 }
 
-      a{
-       
-       color: rgb(178, 23, 67);
-      }
-      
-      a:hover, a:visited, a:link, a:active
-      {
-          text-decoration: none;
-          
-          // color: rgb(219, 207, 37);
-      }
- .navbar-inverse {
-     background-color: #a94442;
-     border-color: #f90909;
+a {
+ color: rgb(178, 23, 67);
 }
- .navbar-inverse .navbar-nav > li > a , .navbar-inverse .navbar-brand, .navbar-inverse .navbar-toggle:not(:hover){
-     color: #f5f5f5;
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+ text-decoration: none; // color: rgb(219, 207, 37);
 }
- .navbar-inverse .navbar-nav > .active > a {
-     background-color: #bfbb56;
+
+.navbar-inverse {
+ background-color: #a94442;
+ border-color: #f90909;
 }
- .navbar-inverse .navbar-toggle:hover{
-     background-color: #a4a52c;
+
+.navbar-inverse .navbar-nav>li>a,
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-toggle:not(:hover) {
+ color: #f5f5f5;
 }
- html,body {
-     height: 100%;
+
+.navbar-inverse .navbar-nav>.active>a {
+ background-color: #bfbb56;
 }
- #col-bg-pic{
-     background-image: url("http://sohopizza.com/images/pizza.jpeg");
-     background-position: center;
-     background-repeat: no-repeat;
-     background-origin: content-box;
-     background-clip: padding-box;
-     background-size: cover;
-     -webkit-animation-name: example;
-    /* Safari 4.0 - 8.0 */
-     -webkit-animation-duration: 4s;
-    /* Safari 4.0 - 8.0 */
-     animation-name: example;
-     animation-duration: 4s;
-     margin-top: 0;
+
+.navbar-inverse .navbar-toggle:hover {
+ background-color: #a4a52c;
 }
+
+html,
+body {
+ height: 100%;
+}
+
+#col-bg-pic {
+ background-image: url("http://sohopizza.com/images/pizza.jpeg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-origin: content-box;
+ background-clip: padding-box;
+ background-size: cover;
+ -webkit-animation-name: example;
+ /* Safari 4.0 - 8.0 */
+ -webkit-animation-duration: 4s;
+ /* Safari 4.0 - 8.0 */
+ animation-name: example;
+ animation-duration: 4s;
+ margin-top: 0;
+}
+
 /* Safari 4.0 - 8.0 */
- @-webkit-keyframes example {
-     0% {
-        opacity: 0.0;
-    }
-     25% {
-        opacity: 0.25;
-    }
-     50% {
-        opacity: 0.5;
-    }
-     100% {
-        opacity: 1;
-    }
-}
-/* Standard syntax */
- @keyframes example {
-     0% {
-        opacity: 0.0;
-    }
-     25% {
-        opacity: 0.25;
-    }
-     50% {
-        opacity: 0.5;
-    }
-     100% {
-        opacity: 1;
-    }
+
+@-webkit-keyframes example {
+ 0% {
+  opacity: 0.0;
+ }
+ 25% {
+  opacity: 0.25;
+ }
+ 50% {
+  opacity: 0.5;
+ }
+ 100% {
+  opacity: 1;
+ }
 }
 
-.jumbotron{
-    min-height: 100%;
-    min-height: 100vh;
+/* Standard syntax */
+
+@keyframes example {
+ 0% {
+  opacity: 0.0;
+ }
+ 25% {
+  opacity: 0.25;
+ }
+ 50% {
+  opacity: 0.5;
+ }
+ 100% {
+  opacity: 1;
+ }
+}
+
+.jumbotron {
+ min-height: 100%;
+ min-height: 100vh;
 }
 
 #lunch-logo,
 #dinner-logo {
-    width: 15em;
-    // height: 100;
+ width: 15em; // height: 100;
 }
 
-   #lunch-logo-span{          
-       font-size: 50px;
-       padding-left: 290px;
-      }   
-     
-     #dinner-logo-span{
-      font-size: 50px;
-      padding-right: 290px;
-      }
-      
-
-   
-
- @media only screen and (max-width: 425px){
-     #fax{
-         font-size: 30px;
-    }
-    
-    #dinner-logo-span{ 
-      display: none;   
-    }
-    
-    #lunch-logo-span{ 
-      display: none;   
-    }
+#lunch-logo-span {
+ font-size: 50px;
+ padding-left: 290px;
 }
- @media only screen and (min-width: 720px){
-     .container-fluid,.col-md-4,.row {
-         height: 100%;
-    }
-    
-     .jumbotron{
-       margin-bottom: 30px;
-      }
+
+#dinner-logo-span {
+ font-size: 50px;
+ padding-right: 290px;
 }
- @media only screen and (min-width: 769px){
-     #hide-min769 {
-         display: none;   
-       }
-       
-  
-}
- @media only screen and (max-width: 769px){
-     #hide-max769{
-         display:none;
-     
-    }
-     #col-bg-pic {
-         height: 100%;
-    }
-    
-      .jumbotron{
-       margin-bottom: 0px;
-      }
-}  
 
 
- @media only screen and  (min-width: 768px)   {
-     #lunch-logo-span{          
-        font-size: 50px;
-        padding-left: 159px;
-       }   
-     
-     #dinner-logo-span{
-      font-size: 50px;
-      padding-right: 139px;
-      }
-  }  
- 
- 
+@media only screen and (max-width: 425px) {
+ #fax {
+  font-size: 30px;
+ }
+
+ #dinner-logo-span {
+  display: none;
+ }
+
+ #lunch-logo-span {
+  display: none;
+ }
+}
+
+
+
+
+@media only screen and (min-width: 720px) {
+ .container-fluid,
+ .col-md-4,
+ .row {
+  height: 100%;
+ }
+
+ .jumbotron {
+  margin-bottom: 30px;
+ }
+}
+
+@media only screen and (min-width: 769px) {
+ #hide-min769 {
+  display: none;
+ }
+
+   .container-fluid,
+ .col-md-4,
+ .row {
+  height: 0%;
+ }
+
+}
+
+@media only screen and (max-width: 769px) {
+ #hide-max769 {
+  display: none;
+
+ }
+ #col-bg-pic {
+  height: 100%;
+ }
+
+ .jumbotron {
+  margin-bottom: 0px;
+ }
+}
+
+
+@media only screen and (min-width: 768px) {
+ #lunch-logo-span {
+  font-size: 50px;
+  padding-left: 159px;
+ }
+
+ #dinner-logo-span {
+  font-size: 50px;
+  padding-right: 139px;
+ }
+}
