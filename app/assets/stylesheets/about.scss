@@ -3,6 +3,7 @@
 @import "font-awesome";
 .jumbotron{
     margin-bottom: 0;
+    height: 150%;
 }
 
 #full-img {
@@ -23,12 +24,7 @@
 
 .well{
     height: 100%;
-    /* margin-left: 10px; */
-    /* margin-right: 10px; */
-    margin-top: 10px;
-    padding: 25px;
-    border-radius: 10px;
-    /* padding-right: 14px; */
+ 
 }
 
 #bg-col-md-12{
@@ -41,12 +37,18 @@
  .container-fluid,
  .col-md-4,
  .row {
-      height: 70%;
+      height: 61%;
  }
  
  #full-img {
     height: 300px;
 }
+
+.jumbotron{
+    margin-bottom: 0;
+    height: 250%;
+}
+
 }
 @media only screen and (min-width: 1441px) {
 
