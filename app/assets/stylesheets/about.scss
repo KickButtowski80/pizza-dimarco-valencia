@@ -9,7 +9,7 @@
     /*background-size: cover;*/
     object-fit: fill;
     width: 100%;
-    height: 500px;
+    height: 315px;
 }
 
 .col-md-12{
@@ -28,5 +28,10 @@
  .row {
       height: 71%;
  }
+}
 
+@media only screen and (min-width: 320px) {        
+    .container-fluid .jumbotron {     
+        margin-top: 10px;
+    }        
 }
