@@ -1,4 +1,34 @@
-<%= stylesheet_link_tag    "about" %>
+<%#= stylesheet_link_tag    "about" %>
+<style>
+
+.row {
+    height: 80%;
+}
+#full-img {
+    /*background-image: url("http://www.pmq.com/pizzapower-groupshot.jpg");*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    object-fit: fill;
+    width: 100%;
+    height: 500px;
+}
+
+.col-md-12{
+     padding-left: 0; 
+     padding-right: 0; 
+     height: 100%;
+}
+
+@media only screen and (min-width: 720px) {
+ .container-fluid,
+ .col-md-4,
+ .row {
+      height: 100%;
+ }
+
+}
+</style>
  <div class="container-fluid">
     <div  class="row" >    
       <div  class=" col-md-12 well">
