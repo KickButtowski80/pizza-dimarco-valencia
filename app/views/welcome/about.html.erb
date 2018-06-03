@@ -1,23 +1,20 @@
 <%= stylesheet_link_tag    "about" %>
+
 <div class="container-fluid">
     <div  class="row" >    
-      <div  class="col-md-12">          
-               <%= image_tag "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Pizza_in_Naples.jpg/800px-Pizza_in_Naples.jpg" , id: 'full-img'%>
-         </div>
-     </div>
+      <div id='full-img'  class="col-md-12 jumbotron">   
+          <div id="hide-min769">
+              <%= render 'shared/about_content'%>
+          </div>          
+      </div>
+    </div>
     <div class='row'>
-      <div  class="col-md-12 jumbotron" >
-          <div class="well" style=" height: auto;">
-                <h1>About Us</h1>
-                <p style="font-size:20px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus illo minima et quaerat voluptatum dolorum eaque culpa,
-           libero accusantium doloremque nemo maxime. Iusto eum nulla ea hic quis quod voluptatibus! Lorem ipsum dolor sit amet, consectetur
-           adipisicing elit. Obcaecati id vero, voluptatum nam eum ullam a maiores? Sint tempore incidunt cumque reiciendis delectus,
-           reprehenderit id atque illo quidem. Veritatis, explicabo.</p>
-          </div>
+      <div id="hide-max769" class="col-md-12 jumbotron" >       
+           
+              <%= render 'shared/about_content'%>
+          <      
        </div>   
-
-        
+    
     </div>
 </div>    
-
 
