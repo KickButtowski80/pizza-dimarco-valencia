@@ -1,6 +1,6 @@
-<div class=" well" >
-   <h1 class="text-center">Menu</h1>
-   <div class="row" id='row1'>
+
+   <h1 id = 'menu-color' class="text-center">Menu</h1>
+   <div class="row well">
       <div class="col-md-12">
          <%= link_to lunch_url do %>
         <%= image_tag "https://logopond.com/logos/c5bc7d59b82550b592276a74c670b2b7.png", id: "lunch-logo" %>
@@ -8,7 +8,7 @@
       <% end %>
       </div>
    </div>
-   <div class="row" id='row2'>
+   <div class="row well fixed-bottom " >
       <div class="col-md-12">
           <%= link_to dinner_path do %>            
          <span id="dinner-logo-span" >Dinner</span>           
@@ -16,4 +16,3 @@
       <% end %>
       </div>
    </div>
-</div>
