@@ -1,13 +1,16 @@
 // Place all the styles related to the menu controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.row{
+ border: 1px solid gray;
+ padding-top: 0px;
+ //padding-bottom: 50px;
+}
 
-.jumbotron {
-    padding-bottom: 0;
-    padding-top: 0;    
-    }
-    
-    
+.well{
+ margin-top: 20px;
+}
+
 @media only screen and (min-width: 720px) {
  .container-fluid,
  .col-md-4,
@@ -15,7 +18,5 @@
   height: 100%;
  }
 
- .jumbotron {
-  margin-bottom: 30px;
- }
+
 }

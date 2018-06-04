@@ -1,8 +1,5 @@
 
-.jumbotron {
-    min-height: 48%;
-    min-height: 48vh;
-}
+
 
 #full-img {
     
@@ -14,8 +11,11 @@
     height: auto;
 }
 
-
-
+    .jumbotron {
+    min-height: 60%;
+    min-height: 50vh;
+    margin-bottom: 0px; 
+}
 
 @media only screen and (min-width: 769px) {
 
@@ -28,6 +28,10 @@
    #hide-max768{        
        display:none;       
    }
-
+    
+    .jumbotron {
+    min-height: 93%;
+    min-height: 93vh;
+}
 }
 
