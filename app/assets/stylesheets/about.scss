@@ -1,37 +1,34 @@
-
-
-
 #full-img {
-    
+
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Pizza_in_Naples.jpg/800px-Pizza_in_Naples.jpg");
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
     background-size: cover;
-    width: 100%;
-    height: auto;
+    // width: 100%;
+    // height: auto;
 }
 
-    .jumbotron {
+.jumbotron {
     min-height: 60%;
     min-height: 50vh;
-    margin-bottom: 0px; 
+    margin-bottom: 0px;
 }
 
 @media only screen and (min-width: 769px) {
 
-   #hide-min769{   
-       display:none;
-   }
+    #hide-min769 {
+        display: none;
+    }
 
 }
+
 @media only screen and (max-width: 768px) {
-   #hide-max768{        
-       display:none;       
-   }
-    
-    .jumbotron {
-    min-height: 93%;
-    min-height: 93vh;
-}
-}
+    #hide-max768 {
+        display: none;
+    }
 
+    .jumbotron {
+        min-height: 93%;
+        min-height: 93vh;
+    }
+}
