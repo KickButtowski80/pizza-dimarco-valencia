@@ -46,7 +46,8 @@ group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
-  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+  # Spring speeds up development by keeping your application 
+  #running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   # Use sqlite3 as the database for Active Record
@@ -57,9 +58,9 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
-gem 'bootstrap-sass' 
+gem 'bootstrap-sass'
 gem 'jquery-rails'
-
-
 gem 'rails_12factor', group: :production
-gem  "font-awesome-rails"
+gem 'font-awesome-rails'
+gem 'rubocop', '~> 0.39.0'
+
