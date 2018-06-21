@@ -1,7 +1,7 @@
 $(document).on('turbolinks:load', function() {
         var d = new Date();
         var dayInNumber = d.getDay();
-        var myDiv = document.getElementById("myDiv");
+        var myDiv = document.getElementById("workHours");
         
         //Create array of options to be added
         var array = 
