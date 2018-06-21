@@ -15,19 +15,19 @@ $(document).on('turbolinks:load', function() {
             myClasses[i].appendChild(selectList[i]);
             
                         //Create and append the options
-            // for (var j = dayInNumber; j < array.length; j++) {
-            //     option = document.createElement("option");
-            //     option.value = array[j];
-            //     option.text = array[j];
-            //     selectList[i].appendChild(option);
-            // }
+            for (var j = dayInNumber; j < array.length; j++) {
+                option = document.createElement("option");
+                option.value = array[j];
+                option.text = array[j];
+                selectList[i].appendChild(option);
+            }
             
-            // for (var j = 0 ; j < dayInNumber; j++) {
-            //     option = document.createElement("option");
-            //     option.value = array[j];
-            //     option.text = array[j];
-            //     selectList[i].appendChild(option);
-            // }
+            for (var j = 0 ; j < dayInNumber; j++) {
+                option = document.createElement("option");
+                option.value = array[j];
+                option.text = array[j];
+                selectList[i].appendChild(option);
+            }
         }
 
         
