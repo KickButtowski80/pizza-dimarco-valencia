@@ -13,7 +13,7 @@ $(document).on('turbolinks:load', function() {
             selectList = document.createElement("select");
             selectList.id = "mySelect";
             selectList.class = 'mytextwithicon';
-            myDiv[i].appendChild(selectList);
+            myClasses[i].appendChild(selectList);
         }
 
         
