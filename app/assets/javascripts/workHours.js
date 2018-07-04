@@ -4,8 +4,6 @@ $(document).on('turbolinks:load', function() {
          var myClasses = document.getElementsByClassName("workHours");
          var selectList=[];
          var option=[];
-        // var myDiv = document.getElementsByTagName("span")
-        //Create array of options to be added
         var array = 
         ["Sunday 11AM–10PM","Monday 11AM–10PM" ,"Tuesday 11AM–10PM","Wednesday 11AM–10PM","Thursday 11AM–10PM","Friday 11AM–11PM","Saturday 11AM–11PM"];
         for (var i = 0; i < myClasses.length; i++) {
