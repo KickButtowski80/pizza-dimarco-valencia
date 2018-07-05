@@ -1,0 +1,16 @@
+SALAD:
+- name: SPINACH SALAD	
+  price: $9.85 
+  ingredients: Spinach topped with Avocado, Grilled Chicken Breast, Artichoke Hearts, Tomatoes, Mushrooms,Croutons and Parmesan Cheese.
+- name: MILANO CHICKEN SALAD	
+  price: $9.85  
+  ingredients: Penne pasta, char grilled breast of chicken, Romaine Lettuce, roasted peppers, covered with a fresh tomato, balsamic vinaigrette and Parmesan cheese.
+- name: BBQ CHICKEN SALAD	
+  price: $9.85
+  ingredients: Grilled Marinated Chicken Breast in Lime, Southwest dressing, Romaine Black Beans, Tomato, Cheese, Tortilla Chips tossed with our BBQ Ranch dressing.
+- name: CHOPPED CHICKEN & BACON SALAD	
+  price: $9.85
+  ingredients: Chilled Chicken Breast, Smoked Bacon, Romaine Lettuce, Mozzarella, Red Onions, Tomato and Basil with choice of dressing.
+- name: SHRIMP & ANGEL HAIR SALAD	
+  price: $10.95   
+  ingredients: Grilled large Shrimp with Angel Hair Pasta, Red Peppers, Red Onions, tossed with Balsamic Vinaigrette on bed of Romaine lettuces.

@@ -1,3 +1,6 @@
+ 
+
+
 <div class="container jumbotron">
     <div class="row">
         <div class="col-md-12 text-center">
@@ -8,7 +11,7 @@
         <div class="col-md-4">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">TOSSED GREEN SALAD</h5>
+                <h3 class="card-title">TOSSED GREEN SALAD</h3>
                 <p class="card-text">Lettuce, Tomato, Carrots, Black Olives and Mozzarella Cheese.</p>
                 <a href="#" class="btn btn-primary">$3.95 small</a>
                 <a href="#" class="btn btn-primary">$5.95 large</a>
@@ -18,12 +21,81 @@
        <div class="col-md-4">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">TOSSED GREEN SALAD</h5>
+                <h3 class="card-title">ANTIPASTO SALAD</h3>
                 <p class="card-text">With Salami, Ham, Pepperoni, Red Onion, Black Olives, Tomatoes, Pepperochini and Mozzarella Cheese.</p>
                 <a href="#" class="btn btn-primary">$5.25 small</a>
                 <a href="#" class="btn btn-primary">$8.99 large</a>
               </div>
             </div>        
-        </div> 
+        </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">TOSSED CHICKEN SALAD</h3>
+                <p class="card-text">Breast of Chicken, Lettuce, Tomatoes, Black Olives, Red Onion and Pepperoncini.</p>
+                <a href="#" class="btn btn-primary">$5.25 small</a>
+                <a href="#" class="btn btn-primary">$9.85 large</a>
+              </div>
+            </div>        
+        </div>      
     </div>
+    <div class="row">
+      <div class="col-md-6">
+         <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">GREEK SALAD</h3>
+                <p class="card-text">Romaine Lettuce, Roma Tomatoes, Greek Olives, Cucumber, Red Onion Pepperochini and Fete Cheese.</p>
+                <a href="#" class="btn btn-primary">$5.25 small</a>
+                <a href="#" class="btn btn-primary">$8.99 large</a>
+              </div>
+          </div>       
+      </div>
+      <div class="col-md-6">
+         <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">CAESAR SALAD	</h3>
+                <p class="card-text">With our Caesar dressing, Romaine, Garlic Croutons, Parmesan Cheese. With Breast of Chicken.	
+                  <a href="#" class="btn btn-primary">$2.50 Extra</a>
+                </p>
+                <a href="#" class="btn btn-primary">$4.25 small</a>
+                <a href="#" class="btn btn-primary">$6.50 large</a>
+              </div>
+          </div>      
+      </div>
+      </div>
+ 
+      <div class="row">         
+          <% RestSaladConfig.current_menu.each do |subject,item| %>
+             <% item.each_with_index do |i,index| %>           
+              
+                <div class='<%= sixmd_or_twelveemd(index, item)%>'>
+           
+                  <div  class="card"  >
+                    <div class="card-body">
+                      <h3 class="card-title"><%= i['name']%>	</h3>                    
+                      <p class="card-text"><%= i["ingredients"]%></p> 
+                      <a href="#" class="btn btn-primary"><%= i["price"]%>	</a>
+                    </div>
+                  </div> 
+                </div> 
+              <%end%>
+          <%end%>       
+     
+      </div>
+
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+   </div>
 </div>
