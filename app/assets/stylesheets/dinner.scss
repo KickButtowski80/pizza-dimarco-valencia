@@ -20,12 +20,33 @@ img{
 
 
 @media only screen and (min-width: 991px) {
-    #change-one {       
-       top: -50px;
+    #change-pasta {       
+       top: 3px;
     }
     
     #change-two{        
         top: -108px;
+    }
+    
+    #change-cold-sandwich {
+        top: -132px;
+        
+    }
+    
+    #change-hot-sandwich {
+        top: -157px;
+    }
+    
+    #change-side-order {
+        top: -95px;
+    }
+    
+    #change-dessert{
+            top: -113px;
+    }
+    
+    #change-beverages{
+        top: -90px;
     }
 }
  
