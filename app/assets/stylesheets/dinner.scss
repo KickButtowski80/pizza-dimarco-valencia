@@ -1,0 +1,30 @@
+img{
+    width: 250px;
+    height: 250px;
+}
+
+.jumbotron{
+   // margin: 30px;
+   margin-bottom: 0px;
+}
+
+// .card {
+//   background-color: #cc7432;
+//   padding: 10px;
+//   margin-bottom: 5px;
+//   margin-top: 10px;
+//   // height: 480px;
+//   position: relative; 
+//   }
+
+
+@media only screen and (min-width: 991px) {
+    #change-one {       
+       top: -50px;
+    }
+    
+    #change-two{        
+        top: -108px;
+    }
+}
+ 

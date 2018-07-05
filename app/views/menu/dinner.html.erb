@@ -1,2 +1,67 @@
-<h1>Menu#dinner</h1>
-<p>Find me in app/views/menu/dinner.html.erb</p>
+<%= stylesheet_link_tag    "dinner" %>
+<div class="container jumbotron">
+   <div class="row">
+      <div class="col-md-4">
+         <div class="card">
+            <img class="card-img-top img-thumbnail" src="https://images.pexels.com/photos/6086/food-salad-healthy-vegetables.jpg?auto=compress&cs=tinysrgb&h=750&w=126" alt="salad">
+            <div class="card-body">
+               <h2 class="card-title">Salads</h2>
+               <p class="card-text">All salads are served with garlic bread and your choice on vinaigrette, honey mustard, thousand islands. blue cheese, ranch or Italian dressing</p>
+                <%= link_to 'Salad', salad_path , class: 'btn btn-primary' %>
+            </div>
+         </div>
+      </div>
+      <div class="col-md-4">
+         <div class="card" style="">
+            <img class="card-img-top img-thumbnail" src="https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg" alt="salad">
+            <div class="card-body">
+               <h2 class="card-title">Pizza</h2>
+               <p class="card-text">Fresh Ingredients. 100% Moozarella cheese Dough made fresh daily with different topping </p>
+               <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+         </div>
+      </div>
+      <div class="col-md-4">
+         <div class="card" style="">
+            <img class="card-img-top img-thumbnail" src="https://get.pxhere.com/photo/dish-meal-food-produce-fresh-breakfast-gourmet-meat-cuisine-sauce-delicious-pie-pastry-dough-pizza-slices-eating-utensils-spices-meals-tomatoes-tables-fast-herbs-restaurants-plates-mozzarella-italian-food-lunches-cheeses-vegetarian-pizza-knife-and-fork-dinners-basked-crusts-european-food-655280.jpg" alt="salad">
+            <div class="card-body">
+               <h2 class="card-title"> Gourmet Pizza</h2>
+               <p class="card-text">Fresh Ingredients. 100% Moozarella cheese Dough made fresh daily</p>
+               <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="row" >
+      <div class="col-md-4">
+         <div class="card" style="">
+            <img class="card-img-top img-thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Calzone_Tradition_%2B_poivrons.JPG" alt="salad">
+            <div class="card-body">
+               <h2 class="card-title"> Calzone</h2>
+               <p class="card-text">Fresh Ingredients. 100% Moozarella cheese Dough made fresh daily</p>
+               <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+         </div>
+      </div>
+      <div class="col-md-4">
+         <div id='change-one' class="card" style="">
+            <img class="card-img-top img-thumbnail" src="https://im.mtv.fi/image/6300508/landscape16_9/1024/576/e5b3ecf2985d7b8457ea6bb13a0dff4/yK/cacio-e-pepe-pasta.jpg" alt="salad">
+            <div class="card-body">
+               <h2 class="card-title"> Pasta</h2>
+               <p class="card-text">Served with garlic bread. For additional Meatball(beef), Italian sausage ,mushroom, or meat sauce add $2.10 </p>
+               <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+         </div>
+      </div>
+      <div class="col-md-4">
+         <div id= 'change-two' class="card" style="">
+            <img class="card-img-top img-thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Calzone_Tradition_%2B_poivrons.JPG" alt="salad">
+            <div class="card-body">
+               <h2 class="card-title"> Calzone</h2>
+               <p class="card-text">Fresh Ingredients. 100% Moozarella cheese Dough made fresh daily</p>
+               <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
