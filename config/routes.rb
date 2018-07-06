@@ -11,7 +11,8 @@ Rails.application.routes.draw do
   end
   
     scope '/menu/dinner' do
-      get 'salads' => 'dinner#salad'
+      get 'salad' => 'dinner#salad'
+      get 'calzone' => 'dinner#calzone'
     end
   
   
