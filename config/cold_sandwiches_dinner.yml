@@ -1,0 +1,13 @@
+Cold Sandwiches:
+- name: Submarine
+  ingredients: Salami, Canadian bacon, ham, mozzarella cheese, lettuce, tomatoes, and mayonnaise.
+  price: $7.55
+- name: Turkey
+  ingredients: Sliced turkey, lettuce, tomatoes, mozzarella cheese, and mayonnaise.
+  price: $7.55
+- name: Avocado and Cheese
+  ingredients: Fresh avocado slices, mozzarella cheese, black olives, lettuce, tomatoes, and mayonnaise.
+  price: $7.55
+- name: Tuna Salad
+  ingredients: Our special solid white albacore tuna salad with lettuce, tomatoes, sliced of cucumbers, alfalfa sprouts, shredded carrots, mayonnaise and dijon on your choice of bread.
+  price: $7.95
