@@ -15,6 +15,7 @@ Rails.application.routes.draw do
       get 'calzone' => 'dinner#calzone'
       get 'side-orders' => 'dinner#sideorders'
       get 'dessert' => 'dinner#dessert'
+      get 'beverages' => 'dinner#beverages'
     end
   
   

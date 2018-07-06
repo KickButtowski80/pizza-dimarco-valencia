@@ -8,5 +8,8 @@ class DinnerController < ApplicationController
   def dessert
   end
   
+  def beverages
+  end
+  
   
 end
