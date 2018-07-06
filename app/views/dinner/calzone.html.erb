@@ -1,0 +1,24 @@
+<div class="container jumbotron">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1> Calzone</h1>        
+        </div>
+    </div>
+      <div class="row">         
+      <% CalzoneDinnerConfig.current_menu.each do |subject,item| %>
+         <% item.each_with_index do |i,index| %>           
+            <div class='col-md-4'>       
+              <div  class="card"  >
+                <div class="card-body">
+                  <h3 class="card-title"><%= i['name']%>	</h3>                    
+                  <p class="card-text"><%= i["ingredients"]%></p> 
+                  <a href="#" class="btn btn-primary"><%= i["price"]%>	</a>
+                </div>
+              </div> 
+            </div> 
+          <%end%>
+      <%end%>  
+ 
+  </div>
+  <%= render 'shared/back_to_dinner_page' %>
+</div>    

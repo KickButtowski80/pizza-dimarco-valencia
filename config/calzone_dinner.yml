@@ -1,0 +1,37 @@
+CALZONE:
+
+- name: DELUXE
+  ingredients: Pepperoni, Sausage, Mushrooms, Onions, Bell Peppers, Black Olives, Basil, Tomato Sauce, Ricotta and Mozzarella Cheese.
+  price: $9.25
+
+- name: VEGETARIAN	 
+  ingredients: Mushrooms, Onions, Bell Peppers. Black Olives, Basil, Tomato Sauce, Ricotta and Mozzarella Cheese.
+  price: $9.25 
+
+- name: B.B.Q CHICKEN	 
+  ingredients: Grilled Chicken Breast, Red Onions, Cilantro, B. B. Q. Sauce, Tomato Sauce, Ricotta and Mozzarella Cheese.
+  price: $9.25
+
+- name: CHEESE CALZONE	 	
+  ingredients: Ricotta, Parmesan, Mozzarella, Tomato Sauce and Fresh Basil.
+  price: $9.25 
+
+- name: MEATBALLS	
+  ingredients: Meatballs, Ricotta, Mozzarella, Fresh Basil and Tomato Sauce.
+  price: $9.25
+
+- name: GRILLED VEGETABLES	
+  ingredients: Grilled Eggplant, Zucchini, Roasted Peppers, Roasted Garlic, Red Onion, Ricotta. Mozzarella, Fresh Basil and Tomato Sauce.
+  price: $9.25
+
+- name: SPINACH	
+  ingredients: Fresh Spinach, fresh Garlic, Tomato Sauce, Ricotta Cheese & Mozzarella Cheese
+  price: $9.25
+
+- name: CHICKEN PESTO	
+  ingredients: Grilled Chicken Breast, Fresh Pesto, Artichokes, with Ricotta & Mozzarella topped with diced Tomao.
+  price: $9.25
+
+- name: CREATE YOUR OWN (up to three topping)                                                                             
+  ingredients: Ricotta, Mozzarella & Marinara Sauce with up to three topping ofvour choice. SIDE ORDERS 
+  price: $9.25
