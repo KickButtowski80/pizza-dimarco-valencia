@@ -14,5 +14,6 @@ class DinnerController < ApplicationController
   def cold_sandwiches
   end
   
-  
+  def hot_sandwiches
+  end
 end

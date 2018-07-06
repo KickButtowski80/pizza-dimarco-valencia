@@ -17,6 +17,7 @@ Rails.application.routes.draw do
       get 'dessert' => 'dinner#dessert'
       get 'beverages' => 'dinner#beverages'
       get 'cold-sandwiches' => 'dinner#cold_sandwiches'
+      get 'hot-sandwiches' => 'dinner#hot_sandwiches'
     end
   
   
