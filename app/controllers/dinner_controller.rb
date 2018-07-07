@@ -26,4 +26,7 @@ class DinnerController < ApplicationController
   def gourmet_pizza
   end
   
+  def pizza
+  end
+  
 end

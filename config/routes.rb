@@ -21,6 +21,7 @@ Rails.application.routes.draw do
       get 'chef-gourmet-pasta' => 'dinner#chef_gourmet_pasta'
       get 'pasta' => 'dinner#pasta'
       get 'gourmet-pizza' => 'dinner#gourmet_pizza'
+      get 'pizza' => 'dinner#pizza'
     end
   
   

@@ -1,0 +1,52 @@
+<div class="container jumbotron">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1>Pizza</h1>        
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 text-center"> 
+            <h3>Topping</h3>        
+        </div>
+        <div class="col-md-offset-2 col-md-8" style="border: 1px solid gray; padding: 5px;border-radius: 25px;">
+            <h3 style="line-height: 32px;color:red;">
+                Pepperoni, Italian Sausage, Ham, Weatballs, Canadia Bacon, Salami, Grilled Chicken Breast, Mushrooms, Black Olives, Kalamata Olives, White or Red Onions, Green Peppers, Artichoke, Sweet Red Peppérs, Roasted Peppers, Grilled
+Eggplant, Pineapple, Grilled Zucchini, Jalapenos, Fresh or Sun Dried Tomato, Fresh and Roasted Garlic, Anchovies, Feta Cheese, Chipotle
+Peppers, Fresh Basil, Fresh Cilantro, Bacon, Ground Beef.
+
+            </h3>
+        </div>
+        <div class="col-md-2">        
+        </div>    
+    </div>
+    <% PizzaAndGourmetPizzaDinnerConfig.pizza_menu.each do |item,content| %>        
+    <div class="row"> 
+        <div class="col-md-12">
+           <% content.each do |content,detail| %>  
+                   <div class="card" >
+                      <div class="card-body">
+                        <h3 class="card-title"><%= content["name"] %></h3>
+                        <p class="card-text"><%= content["ingredients"]%></p>
+                        <% content["price"].each_with_index do |p,index|%>
+                             <a href="#" class="btn btn-primary"><%= pizza_size(index)%>&nbsp;:&nbsp;<%= p%> </a> 
+                        <%end%>                      
+                      </div>
+                    </div>
+              <%end%> 
+           <%end%>
+        </div>
+        <div class="col-md-12">
+           <div class="card" >
+              <div class="card-body">
+                <h3 class="card-title">Individual Pizza</h3>
+                <p class="card-text"> Ask for it :)</p>
+                <a href="#" class="btn btn-primary">$5.25 </a> 
+                <span style="font-size: 20px"> add 1 Topping </span>
+                <a href="#" class="btn btn-primary">$0.95</a> 
+              </div>
+            </div>
+        </div>
+    </div>
+      <%= render 'shared/back_to_dinner_page' %>
+</div>
+</div>

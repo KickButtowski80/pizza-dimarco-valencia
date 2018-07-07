@@ -1,0 +1,53 @@
+Pizza: 
+- name: Mozzarella Cheese
+  ingredients: mainly cheese :)
+  price:
+      - $10.95
+      - $13.45
+      - $15.35
+      - $17.95
+- name: Toppings & Extra Cheese
+  ingredients: mainly cheese :)
+  price:
+      - $1.65
+      - $2.10
+      - $2.40
+      - $2.70
+- name: COMBINATION SPECIAL
+  price:
+     - $17.75
+     - $19.25
+     - $22.95
+     - $26.95
+  ingredients: Pepperoni, Italian Sausage, Mushrooms, Onion, Black Olives and Bell Peppers.
+ 
+- name: VEGETARIAN SPECIAL
+  price:
+     - $15.35
+     - $17.75
+     - $19.95
+     - $22.95
+  ingredients: Fresh Mushrooms, Black Olive, Bell Peppers, Onion and Fresh Tomato.
+
+- name: ALL MEAT SPECIAL
+  price:
+     - $17.75
+     - $19.25
+     - $22.95
+     - $26.95
+  ingredients: Pepperoni, Salami, Ham and Italian Sausage.
+- name: HAWAIIANSPECIAL
+  price:
+     - $14.35
+     - $16.95
+     - $19.95
+     - $23.95
+  ingredients: Canadian Style Bacon and Pineapple.
+
+- name: CHICKEN SPECIAL
+  price:
+     - $14.35
+     - $16.95
+     - $19.95
+     -  $23.95
+  ingredients: Marinated Chicken Breast and Red Onion.

@@ -13,11 +13,11 @@ module ApplicationHelper
   
   def pizza_size(index)
     if index == 0
-      'Medium'
+      'Medium 13"'
     elsif index == 1
-      'Large'
+      'Large 15"'
     elsif index == 2
-      'X-Large'
+      'X-Large 18"'
     elsif index == 3
       'Party 20"'
     end
