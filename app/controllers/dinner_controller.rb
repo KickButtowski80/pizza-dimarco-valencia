@@ -16,4 +16,14 @@ class DinnerController < ApplicationController
   
   def hot_sandwiches
   end
+  
+  def chef_gourmet_pasta
+  end
+  
+  def pasta
+  end
+  
+  def gourmet_pizza
+  end
+  
 end

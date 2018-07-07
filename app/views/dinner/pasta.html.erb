@@ -1,24 +1,14 @@
-<style>
- .card {
-    height: 280px;
-    padding: 10px;
-    margin: 10px;
-}
-
-</style>
 <div class="container jumbotron">
     <div class="row">
         <div class="col-md-12 text-center">
-            <h1> Salads</h1>        
+            <h1> Pasta</h1>        
         </div>
     </div>
-    
+        
     <div class="row">         
-        <% HotSandwichesDinnerConfig.current_menu.each do |subject,item| %>
-           <% item.each_with_index do |i,index| %>           
-            
-              <div class='col-md-6 '>
-         
+        <% PastaAndChefGourmetPastaDinnerConfig.pasta_menu.each do |subject,item| %>
+           <% item.each_with_index do |i,index| %>          
+              <div class='col-md-6 '>         
                 <div  class="card"  >
                   <div class="card-body">
                     <h3 class="card-title"><%= i['name']%>	</h3>                    

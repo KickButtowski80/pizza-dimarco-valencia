@@ -1,0 +1,82 @@
+GourmetPizza:
+- name: B.B.Q. CHICKEN	
+  price:
+      - "$17.95"
+      - "$20.95"
+      - "$24.95 "
+      - "$28.95 "
+  ingredients: Char-Grilled Chicken Breast, Red Onions, Cilantro, our B.B.Q. & Tomato Sauce.
+- name: ROMA TOMATO 
+  price:
+      - "$14.95"
+      - "$17.95"
+      - "$20.95 "
+      - "$25.95 "
+  ingredients: Roma Tomato, Roasted Garlic and Fresh Basil.
+- name: MEDITERRANEAN	
+  price:
+      - "$17.95"
+      - "$20.95"
+      - "$24.95 "
+      - "$28.95"
+  ingredients: Grilled Marinated Eggplant, Artichoke Hearts, Hearts of Palm, Sun dried Tomato, Fresh Basil and our Tomato Sauce
+- name: EGGPLANT FETA 
+  price:
+      - "$17.95"
+      - "$20.95"
+      - "$24.95 "
+      - "$28.95 "
+  ingredients:  Grilled Marinated Eggplånt, Feta Cheese,Sun Dried Tomato and Tomato Sauce. 
+- name: GRILLED VEGETABLES	
+  price:
+      - "$17.95"
+      - "$20.95"
+      - "$24.95 "
+      - "$28.95"
+  ingredients: Grilled Eggplant, Zucchini, Roasted Peppers, Red Onions with Roasted Garlic, Fresh Basil and Roma Tomato. GREEK	$17.95 $20.95 $24.95 $28.95 Artichoke Hearts, Kalamata Olives, Capers and Roma Tomato.
+- name: TUSCAN	
+  price:
+      - "$17.95"
+      - "$20.95"
+      - "$24.95"
+      - "$28.95"
+  ingredients: Roasted Peppers, Roasted Garlic, Sun Dried and Roma Tomato Fresh Basil.
+- name: CHICKEN SPINACH	
+  price:
+      - "$17.95"
+      - "$20.95"
+      - "$24.95"
+      - "$28.95 "
+  ingredients: Chicken Breast, Spinach, Artichoke Hearts, Mushroom, Tomato Sauce & Garlic Upon Request.
+- name: SANTA FE CHICKEN
+  price:
+      - "$17.95"
+      - "$20.95"
+      - "$24.95"
+      - "$28.95"
+  ingredients: Grilled Chicken Marinated in Southwest Lime Dressing, Grilled Red Onion, Slices of Avocado, Fresh Tomato and Cilantro.	
+- name: CHICKEN PESTO 
+  price:
+      - "$17.95"
+      - "$20.95"
+      - "$24.95"
+      - "$28.95 "
+  ingredients: Grilled Chicken Breast, Fresh Basil Pesto, Artichokes, topped with diced Tomato.
+- name: CHICKEN CLUB 
+  price:
+      - "$17.95"
+      - "$20.95"
+      - "$24.95"
+      - "$28.95 "
+  ingredients: Grilled Chicken Breast, Bacon, topped with fresh Avocado and diced-Tomato. 
+- name: MEATBALL & BACON	
+  price:
+      - "$17.95"
+      - "$20.95"
+      - "$24.95"
+      - "$28.9"
+  ingredients: Homemade Meatballs, Smoked Bacon, Grilled Red Onions, Roasted Peppers, Roasted Garlic.	10" Gluten Free Pizza Available.
+
+
+
+

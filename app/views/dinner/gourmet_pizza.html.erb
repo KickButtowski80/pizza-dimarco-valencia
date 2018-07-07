@@ -1,0 +1,25 @@
+<div class="container jumbotron">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1> Gourmet Pizza</h1>        
+        </div>
+    </div>
+<% PizzaAndGourmetPizzaDinnerConfig.gorumet_pizza_menu.each do |item,content| %>        
+    <div class="row"> 
+        <div class="col-md-12">
+           <% content.each do |content,detail| %>  
+                   <div class="card" >
+                      <div class="card-body">
+                        <h3 class="card-title"><%= content["name"] %></h3>
+                        <p class="card-text"><%= content["ingredients"]%></p>
+                        <% content["price"].each_with_index do |p,index|%>
+                             <a href="#" class="btn btn-primary"><%= pizza_size(index)%>&nbsp;:&nbsp;<%= p%> </a> 
+                        <%end%>                      
+                      </div>
+                    </div>
+              <%end%> 
+           <%end%>
+        </div>
+    </div>
+      <%= render 'shared/back_to_dinner_page' %>
+</div>

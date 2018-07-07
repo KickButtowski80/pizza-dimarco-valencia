@@ -1,0 +1,35 @@
+
+Pasta:- name:  
+- name: Spaghetti
+  ingredients: With marinara sauce and mozzarella cheese. 
+  price: $7.75
+- name: Lasagna(Beef)
+  ingredients:    Marinara sauce, mozzarella, and ricotta. 
+  price: $9.95
+- name: Ravioli Beef 
+  ingredients:    Marinara and mozzarella. 
+  price: $9.15
+- name: Cheese Ravioli
+  ingredients:    Marinara and mozzarella. 
+  price: $9.15
+- name: Spinach Ravioli
+  ingredients:    Homemade tomato sauce and mozzarella cheese.
+  price: $9.15
+- name: Baked Ziti
+  ingredients:    Penne with ricotta, fresh basil, and marinara sauce, baked under a blanket of mozzarella cheese.
+  price: $8.75
+- name: Tortellini Primavera
+  ingredients:    Cheese tortellini with choice of cream or tomato sauce, mozzarella cheese, and fresh vegetables.
+  price: $9.15
+- name: Chicken Parmesan
+  ingredients:    Chicken breast on a bed of fettuccini with homemade tomato sauce and mozzarella cheese.
+  price: $9.95   
+- name: Eggplant Parmesan
+  ingredients:    With marinara and mozzarella on a bed of fettuccini. 
+  price: $9.15
+- name: Chicken Alfredo
+  ingredients:    With cream sauce and mozzarella on a bed of fettuccini. 
+  price: $9.95
+- name: Fettuccini Verdura
+  ingredients:    Cream sauce or marinara sauce with fresh vegetables and Parmesan cheese on a bed of fettuccine and mozzarella cheese.
+  price: $9.15

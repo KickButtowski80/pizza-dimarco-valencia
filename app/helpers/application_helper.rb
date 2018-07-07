@@ -10,4 +10,17 @@ module ApplicationHelper
         'col-md-6'
     end    
   end
+  
+  def pizza_size(index)
+    if index == 0
+      'Medium'
+    elsif index == 1
+      'Large'
+    elsif index == 2
+      'X-Large'
+    elsif index == 3
+      'Party 20"'
+    end
+  end
+  
 end

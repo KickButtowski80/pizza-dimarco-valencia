@@ -1,0 +1,22 @@
+Chef's Gourmet Pasta:
+- name: Shrimp Linguini
+  ingredients: Large shrimp with tomato, olive oil, garlic, and Parmesan cheese with wine and cream sauce, tossed with linguini.
+  price: $10.95
+- name: Angel Hair Pomodoro
+  ingredients: Fresh Roma tomato, fresh basil, garlic, mushrooms, Parmesan cheese, white wine, and olive oil.
+  price: $9.95
+- name: Penne Napolitan
+  ingredients: Italian sausage sauteed with garlic and peas with tomato sauce, cream sauce, Parmesan, and basil, tossed with penne.  
+  price: $9.95
+- name: Chicken Spinach Penne
+  ingredients: Chicken breast, fresh spinach, mushrooms, artichoke, garlic, Parmesan, and tomato sauce. 
+  price: $9.95
+- name: Chicken Pesto
+  ingredients: Sauteed chicken breast, fresh pesto, mushrooms, garlic, Parmesan, and a touch of cream, tossed with penne.  
+  price: $9.95
+- name: Cajun Chicken Chipotle
+  ingredients: Chicken breast marinated in Cajun vinaigrette, sauteed with sweet red peppers, red onions, and garlic, tossed with chipotle chili, cream sauce, and linguini, topped with fresh tomato and cilantro.  
+  price: $9.95
+- name: Chicken Spinach Lasagna
+  ingredients: Tender pieces of chicken breast and fresh spinach, layered with ricotta and mozzarella cheese, pasta and Parmesan cream sauce.
+  price: $9.95

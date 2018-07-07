@@ -18,6 +18,9 @@ Rails.application.routes.draw do
       get 'beverages' => 'dinner#beverages'
       get 'cold-sandwiches' => 'dinner#cold_sandwiches'
       get 'hot-sandwiches' => 'dinner#hot_sandwiches'
+      get 'chef-gourmet-pasta' => 'dinner#chef_gourmet_pasta'
+      get 'pasta' => 'dinner#pasta'
+      get 'gourmet-pizza' => 'dinner#gourmet_pizza'
     end
   
   
