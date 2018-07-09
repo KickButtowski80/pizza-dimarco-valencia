@@ -35,7 +35,7 @@ Rails.application.routes.draw do
       # get 'chef-gourmet-pasta' => 'lunch#chef_gourmet_pasta'
       # get 'pasta' => 'lunch#pasta'
       # get 'gourmet-pizza' => 'lunch#gourmet_pizza'
-      # get 'pizza' => 'lunch#pizza'
+      get '/lunch/pizza' => 'lunch#pizza'
     end
   
   
