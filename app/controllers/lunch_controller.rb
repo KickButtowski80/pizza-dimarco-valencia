@@ -5,4 +5,9 @@ class LunchController < ApplicationController
     def pizza
     end
     
+    def pasta
+        
+    end
+    
+    
 end

@@ -1,0 +1,56 @@
+Pasta:
+
+- name: Spaghetti
+  ingredients: With marinara sauce and mozzarella cheese. Served with choice of soup or salad and a soft drink.
+  price: $8.95
+- name: Homemade Meat Lasagna
+  ingredients: Marinara sauce, mozzarella and ricotta cheese. Served with choice of soup or salad and a soft drink.
+  price: $9.95
+- name: Beef Ravioli
+  ingredients: Marinara sauce and mozzarella cheese. Served with choice of soup or salad and a soft drink.
+  price: $9.50
+- name: Cheese Ravioli
+  ingredients: Marinara sauce and mozzarella cheese. Served with choice of soup or salad and a soft drink.
+  price: $9.50
+- name: Spinach Ravioli
+  ingredients: Served with choice of soup or salad and a soft drink.
+  price: $9.50
+- name: Penne Napolitan
+  ingredients: Italian sausage sauteed with garlic, peas, tomato sauce, cream sauce, Parmesan and basil tossed with penne. Served with choice of soup or salad and a soft drink.
+  price: $9.50
+- name: Baked Ziti
+  ingredients: Penne mixed with ricotta, fresh basil and marinara sauce, baked under a blanket of mozzarella cheese. Served with choice of soup or salad and a soft drink.
+  price: $8.95
+- name: Chicken Spinach Penne
+  ingredients: Chicken breast, fresh spinach, mushrooms, artichoke, garlic, Parmesan and tomato sauce. Served with choice of soup or salad and a soft drink.
+  price: $9.95
+- name: Chicken Pesto
+  ingredients: Sauteed chicken breast, fresh pesto, mushrooms, garlic, Parmesan and a touch of cream tossed with penne. Served with choice of soup or salad and a soft drink.
+  price: $9.95
+- name: Garlic Shrimp
+  ingredients: Large shrimp with tomato, olive oil, garlic, Parmesan, white wine and cream sauce tossed with linguini. Served with choice of soup or salad and a soft drink.
+  price: $10.95
+- name: Tortellini Primavera
+  ingredients: Cheese tortellini with choice of cream sauce or tomato sauce, mozzarella cheese and fresh vegetables. Served with choice of soup or salad and a soft drink.
+  price: $9.95
+- name: Chicken Parmesan
+  ingredients: With marinara sauce and mozzarella on a bed of fettuccini. Served with choice of soup or salad and a soft drink.
+  price: $9.95
+- name: Eggplant Parmesan
+  ingredients: With marinara sauce and mozzarella on a bed of fettuccini. Served with choice of soup or salad and a soft drink.
+  price: $9.25
+- name: Chicken Alfedo
+  ingredients: Cream sauce and Parmesan cheese on a bed of fettuccini. Served with choice of soup or salad and a soft drink.
+  price: $9.95
+- name: Fettucini Verdura
+  ingredients: Cream sauce, fresh vegetables and Parmesan cheese. Served with choice of soup or salad and a soft drink.
+  price: $9.25
+- name: Angel Hair Pomodoro
+  ingredients: Fresh Roma tomatoes, fresh basil, garlic, mushroom, Parmesan cheese, white wine and olive oil. Served with choice of soup or salad and a soft drink.
+  price: $9.95
+- name: Cajun Chicken Chipotle
+  ingredients: Chicken breast marinated in cajun vinaigrette, sauteed with sweet red peppers, red onions and garlic and tossed with chipotle chili cream sauce and linguini. Topped with fresh tomato and cilantro. Served with choice of soup or salad and a soft drink.
+  price: $9.95
+- name: Chicken Spinach Lasagna
+  ingredients: Tender pieces of chicken breast and fresh spinach layered with ricotta and mozzarella cheese, pasta and Parmesan cream sauce. Served with choice of soup or salad and a soft drink.
+  price: $9.95
