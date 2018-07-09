@@ -1,0 +1,22 @@
+Calzones:     
+- name: Deluxe 
+  ingredients: Pepperoni, sausage, mushrooms, onions, bell peppers, black olives, basil, tomato sauce, ricotta and mozzarella cheese. Served with choice of soup or salad and a soft drink.
+  price: $9.25
+- name: Vegetarian 
+  ingredients: Mushrooms, onions, bell peppers, black olives, basil, tomato sauce, ricotta and mozzarella cheese. Served with choice of soup or salad and a soft drink.
+  price: $9.25
+- name: BBQ Chicken 
+  ingredients: Grilled chicken breast, red onions, cilantro, BBQ sauce, tomato sauce, ricotta and mozzarella cheese. Served with choice of soup or salad and a soft drink.
+  price: $9.25
+- name: Cheese 
+  ingredients: Ricotta, Parmesan, mozzarella, tomato sauce and fresh basil. Served with choice of soup or salad and a soft drink.
+  price: $9.25
+- name: Meatballs 
+  ingredients: Meatballs, ricotta, mozzarella cheese, fresh basil and tomato sauce. Served with choice of soup or salad and a soft drink.
+  price: $9.25
+- name: Spinach 
+  ingredients: Fresh spinach, fresh garlic, tomato sauce, fresh basil, ricotta and mozzarella cheese. Served with choice of soup or salad and a soft drink.
+  price: $8.95
+- name: Chicken Pesto 
+  ingredients: Grilled chicken breast, fresh pesto, artichokes, ricotta and mozzarella topped with diced tomato. Served with choice of soup or salad and a soft drink.
+  price: $9.25

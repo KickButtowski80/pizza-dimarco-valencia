@@ -1,26 +1,26 @@
 Pizza:
-- name: BBQ Chicken Pizza
+- name: BBQ Chicken 
   ingredients: Char-grilled chicken breast, red onions, mozzarella cheese, cilantro, our BBQ and marinara sauce. Served with choice of soup or salad and a soft drink.
   price: $9.25
-- name: Roma Tomato Pizza
+- name: Roma Tomato 
   ingredients: Fresh slices of Roma tomato, roasted garlic, mozzarella cheese and fresh basil. Served with choice of soup or salad and a soft drink.
   price: $9.25
-- name: Grilled Vegetable Pizza
+- name: Grilled Vegetable 
   ingredients: Grilled eggplant, zucchini, roasted peppers, red onions, roasted garlic, fresh basil and Roma tomato. Served with choice of soup or salad and a soft drink.
   price: $9.25
-- name: Eggplant Feta Pizza
+- name: Eggplant Feta 
   ingredients: Grilled marinated eggplant, feta cheese, sun-dried tomato and tomato sauce. Served with choice of soup or salad and a soft drink.
   price: $9.25
-- name: Vegetarian Pizza
+- name: Vegetarian 
   ingredients: Mushrooms, green peppers, onions, olives and tomatoes. Served with choice of soup or salad and a soft drink.
   price: $9.25
-- name: Combination Pizza
+- name: Combination 
   ingredients: Pepperoni, sausage, green peppers, mushrooms, onions and olives. Served with choice of soup or salad and a soft drink.
   price: $9.25
-- name: Individual Cheese Pizzan (one pizza only)
+- name: Individual Cheese(one pizza only)
   ingredients: Served with choice of soup or salad and a soft drink.
   price: $4.75
-- name: Individual 1-Topping Pizza
+- name: Individual 1-Topping 
   ingredients: Additional toppings $1.00 each
   price: $7.95
 

@@ -1,14 +1,21 @@
+<style>
+
+  .card{
+      height: 350px;
+  }
+</style>
+
 <div class="container jumbotron">
     <div class="row">
         <div class="col-md-12 text-center">
-            <h1>Pizza</h1>        
+            <h1>Calzone</h1>        
         </div>
     </div>
         
     <div class="row">         
-        <% PizzaLunchConfig.current_menu.each do |subject,item| %>
+        <% CalzoneLunchConfig.current_menu.each do |subject,item| %>
            <% item.each_with_index do |i,index| %>          
-              <div class='col-md-6 '>         
+              <div class='col-md-4 '>         
                 <div  class="card"  >
                   <div class="card-body">
                     <h3 class="card-title"><%= i['name']%>	</h3>                    
