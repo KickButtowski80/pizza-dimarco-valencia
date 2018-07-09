@@ -3,9 +3,15 @@ Pasta:
 - name: Spaghetti
   ingredients: With marinara sauce and mozzarella cheese. Served with choice of soup or salad and a soft drink.
   price: $8.95
+- name: Spaghetti with meatballs or sausage and mushrooms
+  ingredients: With marinara sauce and mozzarella cheese. Served with choice of soup or salad and a soft drink.
+  price: $10.90
 - name: Homemade Meat Lasagna
   ingredients: Marinara sauce, mozzarella and ricotta cheese. Served with choice of soup or salad and a soft drink.
   price: $9.95
+- name: Homemade Meat Lasagna whit choice of fresh mushroom, italian sausage or meantballs
+  ingredients: Marinara sauce, mozzarella and ricotta cheese. Served with choice of soup or salad and a soft drink.
+  price: $11.90
 - name: Beef Ravioli
   ingredients: Marinara sauce and mozzarella cheese. Served with choice of soup or salad and a soft drink.
   price: $9.50
@@ -21,6 +27,9 @@ Pasta:
 - name: Baked Ziti
   ingredients: Penne mixed with ricotta, fresh basil and marinara sauce, baked under a blanket of mozzarella cheese. Served with choice of soup or salad and a soft drink.
   price: $8.95
+- name: Baked Ziti with choice of Italian sausage or homemade meatballs
+  ingredients: Penne mixed with ricotta, fresh basil and marinara sauce, baked under a blanket of mozzarella cheese. Served with choice of soup or salad and a soft drink.
+  price: $10.90
 - name: Chicken Spinach Penne
   ingredients: Chicken breast, fresh spinach, mushrooms, artichoke, garlic, Parmesan and tomato sauce. Served with choice of soup or salad and a soft drink.
   price: $9.95
@@ -48,6 +57,9 @@ Pasta:
 - name: Angel Hair Pomodoro
   ingredients: Fresh Roma tomatoes, fresh basil, garlic, mushroom, Parmesan cheese, white wine and olive oil. Served with choice of soup or salad and a soft drink.
   price: $9.95
+- name: Angel Hair Pomodoro with breast of chicken
+  ingredients: Fresh Roma tomatoes, fresh basil, garlic, mushroom, Parmesan cheese, white wine and olive oil. Served with choice of soup or salad and a soft drink.
+  price: $11.90
 - name: Cajun Chicken Chipotle
   ingredients: Chicken breast marinated in cajun vinaigrette, sauteed with sweet red peppers, red onions and garlic and tossed with chipotle chili cream sauce and linguini. Topped with fresh tomato and cilantro. Served with choice of soup or salad and a soft drink.
   price: $9.95
