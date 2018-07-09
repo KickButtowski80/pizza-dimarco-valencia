@@ -1,4 +1,8 @@
-<%= stylesheet_link_tag    "dinner" %>
+<style>
+   .card {
+      height: 515px;
+      }
+</style>
 <div class="container jumbotron">
    <div class="row">
       <div class="col-md-12 text-center"> 
@@ -26,8 +30,7 @@
             </div>
          </div>
       </div>
-   </div>
-   <div class="row" >
+   
       <div class="col-sm-4 col-md-4">
          <div class="card" >
             <img class="card-img-top img-thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Calzone_Tradition_%2B_poivrons.JPG" alt="salad">
@@ -39,7 +42,7 @@
          </div>
       </div>
       <div class="col-sm-4 col-md-4">
-         <div id='change-pasta' class="card" >
+         <div class="card" >
             <img class="card-img-top img-thumbnail" src="https://im.mtv.fi/image/6300508/landscape16_9/1024/576/e5b3ecf2985d7b8457ea6bb13a0dff4/yK/cacio-e-pepe-pasta.jpg" alt="salad">
             <div class="card-body">
                <h2 class="card-title"> Pasta</h2>
@@ -48,6 +51,17 @@
             </div>
          </div>
       </div>
-
+      <div class="col-md-4">
+         <div class="card" >
+            <img class="card-img-top img-thumbnail" src="https://get.pxhere.com/photo/dish-meal-food-snack-fast-food-meat-cuisine-bread-bakery-sandwich-sausage-baguette-roll-ciabatta-baked-goods-sandwiches-junk-food-hors-d-oeuvre-colorful-rolls-banh-mi-submarine-sandwich-1016435.jpg" alt="Hot Sandwiches">
+            <div class="card-body">
+               <h2 class="card-title">Sandwiches</h2>
+               <p class="card-text">Served with choice of soupt or salad and soft drink</p>
+               <%= link_to 'Sandwiches', lunch_sandwiches_path, class: 'btn btn-lg btn-primary' %>
+            </div>
+         </div>      
+      </div>
    </div>
+
+</div>   
   

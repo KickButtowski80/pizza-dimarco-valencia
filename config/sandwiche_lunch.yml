@@ -1,0 +1,29 @@
+sandwich: 
+- name: Roast Beef
+  price: $8.25
+- name: Pastrami
+  price: $8.25
+- name: Chicken Parmesan 
+  price: $8.25
+- name: Club
+  price: $8.25
+- name: Chicken Sub
+  price: $8.25
+- name: Meatball & Cheese
+  price: $8.25
+- name: Italian Sausage & Cheese
+  price: $8.25
+- name: Eggplant
+  price: $8.25
+- name: Ham & Cheese
+  price: $8.25
+- name: Hero
+  price: $8.25
+- name: Avocado & Cheese
+  price: $8.25
+- name: Submarine
+  price: $8.25
+- name: Turkey 
+  price: $8.25
+- name: Tuna Salad
+  price: $8.99
