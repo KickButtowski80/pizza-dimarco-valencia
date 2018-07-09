@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'dinner/salad'
+ 
 
   root 'welcome#index'
   get 'welcome/about' => 'welcome#about'
@@ -22,6 +22,20 @@ Rails.application.routes.draw do
       get 'pasta' => 'dinner#pasta'
       get 'gourmet-pizza' => 'dinner#gourmet_pizza'
       get 'pizza' => 'dinner#pizza'
+    end
+    
+    scope '/menu' do
+      get '/lunch/salad' => 'lunch#salad'
+      # get 'calzone' => 'lunch#calzone'
+      # get 'side-orders' => 'lunch#sideorders'
+      # get 'dessert' => 'lunch#dessert'
+      # get 'beverages' => 'lunch#beverages'
+      # get 'cold-sandwiches' => 'lunch#cold_sandwiches'
+      # get 'hot-sandwiches' => 'lunch#hot_sandwiches'
+      # get 'chef-gourmet-pasta' => 'lunch#chef_gourmet_pasta'
+      # get 'pasta' => 'lunch#pasta'
+      # get 'gourmet-pizza' => 'lunch#gourmet_pizza'
+      # get 'pizza' => 'lunch#pizza'
     end
   
   
