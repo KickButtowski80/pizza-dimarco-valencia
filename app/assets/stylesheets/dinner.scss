@@ -13,36 +13,6 @@ img{
 }
 
 
-@media only screen and (min-width: 768px) {
-    #change-pasta {       
-       top: 3px;
-    }
-    
-    #change-two{        
-        top: -108px;
-    }
-    
-    #change-cold-sandwich {
-           top: -160px;
-        
-    }
-    
-    #change-hot-sandwich {
-        top: -190px;
-    }
-    
-    #change-side-order {
-        top: -95px;
-    }
-    
-    #change-dessert{
-            top: -160px;
-    }
-    
-    #change-beverages{
-        top: -100px;
-    }
-    
-    
+.card {
+    height: 580px;
 }
- 

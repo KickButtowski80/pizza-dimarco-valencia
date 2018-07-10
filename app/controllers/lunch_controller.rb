@@ -10,4 +10,10 @@ class LunchController < ApplicationController
     
     def sandwiche
     end
+    
+    def dessert
+    end
+    
+    def beverages
+    end
 end

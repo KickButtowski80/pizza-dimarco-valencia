@@ -1,7 +1,11 @@
 <style>
 
-  .card{
+#smaller-card-height  .card{
       height: 130px;
+  }
+  
+#bigger-card-height  .card{
+      height: 413px;
   }
 </style>
 
@@ -15,7 +19,7 @@
     <div class="row">         
         <% SandwicheLunchConfig.current_menu.each do |subject,item| %>
            <% item.each_with_index do |i,index| %>          
-              <div class='col-md-4 '>         
+              <div id='smaller-card-height' class='col-md-4 '>         
                 <div  class="card"  >
                   <div class="card-body">
                     <h3 class="card-title"><%= i['name']%>	</h3>   
@@ -26,5 +30,39 @@
             <%end%>
         <%end%>  
       </div>
+      <div class="row">
+        <div id='bigger-card-height' class="col-md-4">
+          <div class="card" >
+            <div class="card-body">
+               <h2 class="card-title">B.B.Q. Chicken</h2>
+               <p class="card-text">Grilled chicken breast with BBQ sauce, grilled red onions, lettuce, tomatoes and melted mozzarella with mayonnaise on an Italian bun.</p>
+               <a href="#" class="btn btn-primary">$8.99</a>
+            </div>
+         </div> 
+        </div>
+        <div id='bigger-card-height' class="col-md-4">
+          <div class="card" >
+            <div class="card-body">
+               <h2 class="card-title">Chicken & Roasted Pepper </h2>
+               <p class="card-text">Grilled chicken breast, roasted peppers, lettuce, tomatoes, sliced of cucumbers, shredded carrots, alfalfa sprouts, mayonnaise and Dijon on a choice of sourdough or whole wheat bread.</p>
+               <a href="#" class="btn btn-primary">$8.99</a>
+            </div>
+         </div> 
+        
+        </div>
+        <div id='bigger-card-height'class="col-md-4">
+         <div class="card" >
+            <div class="card-body">
+               <h2 class="card-title">Grilled Chicken & Avocado</h2>
+               <p class="card-text">Chicken breast, slicked avocado, lettuce, tomatoes,  alfalfa sprouts, mayonnaise, mustard and cheese</p>
+               <a href="#" class="btn btn-primary">$9.25</a>
+            </div>
+         </div>         
+        </div>
+      </div>
       <%= render 'shared/back_to_lunch_page' %>
 </div>
+
+
+
+

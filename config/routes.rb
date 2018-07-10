@@ -27,8 +27,8 @@ Rails.application.routes.draw do
     scope '/menu' do
       get '/lunch/salad' => 'lunch#salad'
       get '/lunch/calzone' => 'lunch#calzone'
-      # get 'dessert' => 'lunch#dessert'
-      # get 'beverages' => 'lunch#beverages'
+      get '/lunch/dessert' => 'lunch#dessert'
+      get '/lunch/beverages' => 'lunch#beverages'
       get '/lunch/sandwiches' => 'lunch#sandwiche'
       get '/lunch/pasta' => 'lunch#pasta'
       get '/lunch/pizza' => 'lunch#pizza'
