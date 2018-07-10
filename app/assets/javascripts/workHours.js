@@ -5,7 +5,7 @@ $(document).on('turbolinks:load', function() {
          var selectList=[];
          var option=[];
         var array = 
-        ["Sunday 11AM–10PM","Monday 11AM–10PM" ,"Tuesday 11AM–10PM","Wednesday 11AM–10PM","Thursday 11AM–10PM","Friday 11AM–11PM","Saturday 11AM–11PM"];
+        ["Sunday 12AM–8PM","Monday 11AM–9PM" ,"Tuesday 11AM–9PM","Wednesday 11AM–9PM","Thursday 11AM–9PM","Friday 11AM–10PM","Saturday 11AM–10PM"];
         for (var i = 0; i < myClasses.length; i++) {
                     //Create and append select list
             selectList[i] = document.createElement("select");
@@ -27,8 +27,4 @@ $(document).on('turbolinks:load', function() {
                 selectList[i].appendChild(option);
             }
         }
-
-        
-
-
 });
