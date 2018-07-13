@@ -1,11 +1,11 @@
 $(document).on('turbolinks:load', function() {
         var d = new Date();
         var dayInNumber = d.getDay();
-         var myClasses = document.getElementsByClassName("workHours");
-         var selectList=[];
-         var option=[];
+        var myClasses = document.getElementsByClassName("workHours");
+        var selectList=[];
+        var option=[];
         var array = 
-        ["Sunday 12AM–8PM","Monday 11AM–9PM" ,"Tuesday 11AM–9PM","Wednesday 11AM–9PM","Thursday 11AM–9PM","Friday 11AM–10PM","Saturday 11AM–10PM"];
+        ["Sunday 12PM–8PM","Monday 11AM–9PM" ,"Tuesday 11AM–9PM","Wednesday 11AM–9PM","Thursday 11AM–9PM","Friday 11AM–10PM","Saturday 11AM–10PM"];
         for (var i = 0; i < myClasses.length; i++) {
                     //Create and append select list
             selectList[i] = document.createElement("select");
