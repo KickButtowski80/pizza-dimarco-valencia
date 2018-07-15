@@ -1,28 +1,28 @@
-Salads:
-- name: Caesar Salad
+s:
+- name: Caesar 
   ingredients:  Romaine, garlic croutons and Parmesan cheese with Caesar dressing. Served with garlic bread.
   price: $6.50
-- name: Caesar Salad with extra grilled chicken
+- name: Caesar  with extra grilled chicken
   ingredients:  Romaine, garlic croutons and Parmesan cheese with Caesar dressing. Served with garlic bread.
   price: $9.00
-- name: Antipasto Salad
+- name: Antipasto 
   ingredients:  Salami, ham, pepperoni, red onion, black olives, tomatoes, mozzarella cheese and pepperoncini. Served with garlic bread and your choice of dressing.
   price: $8.99
-- name: Tossed Chicken Salad
+- name: Tossed Chicken 
   ingredients:  Chicken breast with lettuce, tomatoes, red onion, pepperoncini, black olive and mozzarella cheese. Served with garlic bread and your choice of dressing.
   price: $9.85
-- name: Spinach Chicken Salad
+- name: Spinach Chicken 
   ingredients:  Spinach topped with avocados, grilled chicken breast, artichoke hearts, tomatoes, mushrooms, croutons and Parmesan cheese. Served with garlic bread and your choice of dressing.
   price: $9.85
-- name: Greek Salad
+- name: Greek 
   ingredients:  Blend of mixed greens and baby lettuce with Roma tomatoes, Greek olives, cucumber, red onions, pepperoncini and feta cheese. Served with garlic bread and your choice of dressing.
   price: $8.99
-- name: Milano Chicken Salad
+- name: Milano Chicken 
   ingredients:  Penne pasta, char-grilled chicken breast, blend of mixed greens and baby lettuce and roasted peppers covered with a fresh tomato balsamic vinaigrette and Parmesan cheese. Served with garlic bread.
   price: $9.85
-- name: BBQ Chicken Salad
+- name: BBQ Chicken 
   ingredients:  Grilled marinated chicken breast in lime, Southwest dressing, romaine black beans, tomato, cheese and tortilla chips tossed with our BBQ ranch dressing. Served with garlic bread.
   price: $9.85
-- name: Chopped Chicken Salad
+- name: Chopped Chicken 
   ingredients:  Grilled chicken breast, smoked bacon, iceberg and romaine lettuce, mozzarella cheese, red onions, tomato and basil with choice of dressing. Served with garlic bread.
   price: $9.85

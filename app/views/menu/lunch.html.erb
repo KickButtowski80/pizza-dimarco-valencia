@@ -10,7 +10,7 @@
       </div>
    </div>
    <div class="row">
-      <div class="col-sm-4 col-md-4">
+      <div class="col-md-4 col-sm-4">
          <div class="card">
             <img class="card-img-top img-thumbnail" src="https://images.pexels.com/photos/6086/food-salad-healthy-vegetables.jpg?auto=compress&cs=tinysrgb&h=750&w=126" alt="salad">
             <div class="card-body">
@@ -20,7 +20,7 @@
             </div>
          </div>
       </div>
-      <div class="col-sm-4 col-md-4">
+      <div class=" col-md-4 col-sm-4">
          <div class="card" >
             <img class="card-img-top img-thumbnail" src="https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg" alt="salad">
             <div class="card-body">
@@ -31,7 +31,7 @@
          </div>
       </div>
    
-      <div class="col-sm-4 col-md-4">
+      <div class=" col-md-4 col-sm-4">
          <div class="card" >
             <img class="card-img-top img-thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Calzone_Tradition_%2B_poivrons.JPG" alt="salad">
             <div class="card-body">
@@ -41,48 +41,52 @@
             </div>
          </div>
       </div>
-      <div class="col-sm-4 col-md-4">
-         <div class="card" >
-            <img class="card-img-top img-thumbnail" src="https://im.mtv.fi/image/6300508/landscape16_9/1024/576/e5b3ecf2985d7b8457ea6bb13a0dff4/yK/cacio-e-pepe-pasta.jpg" alt="salad">
-            <div class="card-body">
-               <h2 class="card-title"> Pasta</h2>
-               <p class="card-text">Served with garlic bread. For additional Meatball(beef), Italian sausage ,mushroom, or meat sauce add $2.10 </p>
-               <%= link_to "Pasta",lunch_pasta_path, class: 'btn btn-lg btn-primary' %>
+     </div>
+     <div class='row'>
+         <div class=" col-md-4 col-sm-4">
+            <div class="card" >
+               <img class="card-img-top img-thumbnail" src="https://im.mtv.fi/image/6300508/landscape16_9/1024/576/e5b3ecf2985d7b8457ea6bb13a0dff4/yK/cacio-e-pepe-pasta.jpg" alt="salad">
+               <div class="card-body">
+                  <h2 class="card-title"> Pasta</h2>
+                  <p class="card-text">Served with garlic bread. For additional Meatball(beef), Italian sausage ,mushroom, or meat sauce add $2.10 </p>
+                  <%= link_to "Pasta",lunch_pasta_path, class: 'btn btn-lg btn-primary' %>
+               </div>
             </div>
          </div>
+         <div class="col-md-4 col-sm-4">
+            <div class="card" >
+               <img class="card-img-top img-thumbnail" src="https://get.pxhere.com/photo/dish-meal-food-snack-fast-food-meat-cuisine-bread-bakery-sandwich-sausage-baguette-roll-ciabatta-baked-goods-sandwiches-junk-food-hors-d-oeuvre-colorful-rolls-banh-mi-submarine-sandwich-1016435.jpg" alt="Hot Sandwiches">
+               <div class="card-body">
+                  <h2 class="card-title">Sandwiches</h2>
+                  <p class="card-text">Served with choice of soupt or salad and soft drink</p>
+                  <%= link_to 'Sandwiches', lunch_sandwiches_path, class: 'btn btn-lg btn-primary' %>
+               </div>
+            </div>      
+         </div>
+         <div class=" col-md-4 col-sm-4">
+            <div id="change-dessert" class="card" >
+              
+               <img class="card-img-top img-thumbnail" src="https://get.pxhere.com/photo/dish-food-produce-fresh-colorful-dessert-cuisine-delicious-pastry-strawberry-baked-butter-slices-treats-sweets-icing-bright-party-snacks-fruits-foods-layers-multiple-traditional-desserts-sliced-creamy-layered-cheesecake-baked-goods-cakes-celebrations-torte-buttercream-semifreddo-sugary-bavarian-cream-978723.jpg" alt="Dessert">
+               <div  class="card-body">
+                  <h2 class="card-title">Dessert</h2>
+                  <p class="card-text">Just Name it ;)</p>
+                  <%= link_to 'Dessert', lunch_dessert_path, class: 'btn btn-lg btn-primary' %>
+               </div>
+            </div>      
+         </div>
       </div>
-      <div class="col-md-4">
-         <div class="card" >
-            <img class="card-img-top img-thumbnail" src="https://get.pxhere.com/photo/dish-meal-food-snack-fast-food-meat-cuisine-bread-bakery-sandwich-sausage-baguette-roll-ciabatta-baked-goods-sandwiches-junk-food-hors-d-oeuvre-colorful-rolls-banh-mi-submarine-sandwich-1016435.jpg" alt="Hot Sandwiches">
-            <div class="card-body">
-               <h2 class="card-title">Sandwiches</h2>
-               <p class="card-text">Served with choice of soupt or salad and soft drink</p>
-               <%= link_to 'Sandwiches', lunch_sandwiches_path, class: 'btn btn-lg btn-primary' %>
-            </div>
-         </div>      
-      </div>
-      <div class="col-sm-4 col-md-4">
-         <div id="change-dessert" class="card" >
-           
-            <img class="card-img-top img-thumbnail" src="https://get.pxhere.com/photo/dish-food-produce-fresh-colorful-dessert-cuisine-delicious-pastry-strawberry-baked-butter-slices-treats-sweets-icing-bright-party-snacks-fruits-foods-layers-multiple-traditional-desserts-sliced-creamy-layered-cheesecake-baked-goods-cakes-celebrations-torte-buttercream-semifreddo-sugary-bavarian-cream-978723.jpg" alt="Dessert">
-            <div  class="card-body">
-               <h2 class="card-title">Dessert</h2>
-               <p class="card-text">Just Name it ;)</p>
-               <%= link_to 'Dessert', lunch_dessert_path, class: 'btn btn-lg btn-primary' %>
-            </div>
-         </div>      
-      </div>
-      <div class="col-sm-4 col-md-4">
-        <div id="change-beverages" class="card" >
-            <img class="card-img-top img-thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/6/68/Beverages_close_up_shot.JPG" alt="beverages">
-            <div  class="card-body">
-               <h2 class="card-title">Beverages</h2>
-               <p class="card-text">Just Name it ;)</p>
-               <%= link_to 'Beverages', lunch_beverages_path, class: 'btn btn-lg btn-primary' %>
-            </div>
-         </div>      
-      </div>
+      <div class='row'>
+         <div class="col-md-4 col-sm-4 ">
+           <div id="change-beverages" class="card" >
+               <img class="card-img-top img-thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/6/68/Beverages_close_up_shot.JPG" alt="beverages">
+               <div  class="card-body">
+                  <h2 class="card-title">Beverages</h2>
+                  <p class="card-text">Just Name it ;)</p>
+                  <%= link_to 'Beverages', lunch_beverages_path, class: 'btn btn-lg btn-primary' %>
+               </div>
+            </div>      
+         </div>
+     </div>
    </div>
-
-</div>   
+  
   
