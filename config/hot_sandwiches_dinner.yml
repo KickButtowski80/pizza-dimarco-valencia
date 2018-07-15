@@ -1,37 +1,37 @@
 Hot Sandwiches:
-- name: Roast Beef Sandwich
+- name: Roast Beef 
   ingredients: Sliced roast beef, mozzarella, tomatoes, lettuce, and mayonnaise. Served with chips.
   price: $7.55
-- name: Pastrami Sandwich
+- name: Pastrami 
   ingredients: Lean slices of pastrami, mozzarella, pickles, and mustard. Served with chips.
   price: $7.55
-- name: Chicken Parmesan Sandwich
+- name: Chicken Parmesan 
   ingredients: Chicken breast, mozzarella cheese, and Italian tomato sauce. Served with chips.
   price: $7.55
-- name: Club Sandwich
+- name: Club 
   ingredients: Sliced roast beef, turkey, and ham, served with lettuce, tomatoes, mozzarella cheese, and mayonnaise. Served with chips.
   price: $7.55
 - name: Chicken Sub
   ingredients: Breast of chicken, mozzarella cheese, lettuce, tomatoes, and mayonnaise. Served with chips.
   price: $7.55
-- name: Meatball and Cheese Sandwich
+- name: Meatball and Cheese 
   ingredients: Homemade meatballs, melted mozzarella cheese, and Italian tomato sauce. Served with chips.
   price: $7.55
-- name: Eggplant Parmesan Sandwich
+- name: Eggplant Parmesan 
   ingredients: Slices of breaded eggplant, melted mozzarella cheese, and Italian tomato sauce. Served with chips.
   price: $7.55
-- name: Ham and Cheese Sandwich
+- name: Ham and Cheese 
   ingredients: Slices of ham, lettuce, tomatoes, mozzarella cheese, and mayonnaise. Served with chips.
   price: $7.55
-- name: Hero Sandwich
+- name: Hero 
   ingredients: Salami, Canadian bacon, pepperoni, mozzarella cheese, lettuce, tomatoes, and mayonnaise. Served with chips.
   price: $7.55
-- name: Italian Sausage and Cheese Sandwich
+- name: Italian Sausage and Cheese 
   ingredients: Italian sausage links, melted mozzarella cheese, and Italian tomato sauce. Served with chips.
   price: $7.55
-- name: Chicken Bacon Avocado Sandwich
+- name: Chicken Bacon Avocado 
   ingredients: Grilled chicken breast, slices of avocado, lettuce, tomato, slices of cucumber, shredded carrots, alfalfa sprouts, mayonnaise, and Dijon mustard on choice of sourdough or whole wheat.
   price: $8.95
-- name: BBQ Chicken Sandwich
+- name: BBQ Chicken 
   ingredients: Grilled chicken breast with BBQ sauce, grilled red onions, lettuce, tomato, melted mozzarella, and mayonnaise on Italian roll.
   price: $7.95

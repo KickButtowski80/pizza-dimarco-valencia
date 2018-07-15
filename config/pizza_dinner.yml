@@ -36,7 +36,7 @@ Pizza:
      - $22.95
      - $26.95
   ingredients: Pepperoni, Salami, Ham and Italian Sausage.
-- name: HAWAIIANSPECIAL
+- name: HAWAIIAN SPECIAL
   price:
      - $14.35
      - $16.95
@@ -49,5 +49,5 @@ Pizza:
      - $14.35
      - $16.95
      - $19.95
-     -  $23.95
+     - $23.95
   ingredients: Marinated Chicken Breast and Red Onion.

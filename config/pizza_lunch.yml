@@ -17,7 +17,7 @@ Pizza:
 - name: Combination 
   ingredients: Pepperoni, sausage, green peppers, mushrooms, onions and olives. Served with choice of soup or salad and a soft drink.
   price: $9.25
-- name: Individual Cheese(one pizza only)
+- name: Individual Cheese (one pizza only)
   ingredients: Served with choice of soup or salad and a soft drink.
   price: $4.75
 - name: Individual 1-Topping 
