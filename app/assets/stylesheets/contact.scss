@@ -6,18 +6,25 @@
 }
 
 .col-md-12{
-    height: 0;
+    height: 100%;
 }
  
  #jumbo-height{
-         height: 85vh;
+   height: 60vh;
  }
 
+// @media only screen and (max-width: 991px) {
+//       #jumbo-height{
+//   height: 93vh;
+//  }
+    
+// }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 770px) {
 
     #hide-min769 {
         display: none;
+        background-color: red;
     }
 
  .change-margin{
@@ -25,23 +32,24 @@
      margin-right: 50px;
  }
  
+ #full-img{
+     height: 35vh;
+ }
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 769px) {
     #hide-max768 {
         display: none;
     }
-        .jumbotron {
+   .jumbotron {
         min-height: 93%;
         min-height: 93vh;
         margin-left: 25px;
         margin-right: 25px;
     }
     
-    #full-img{
-        height: 130vh;
-    }
+ 
     
 
 }
