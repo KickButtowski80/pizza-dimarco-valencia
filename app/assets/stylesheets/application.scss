@@ -181,9 +181,9 @@ h3 {
     flex-direction: column; 
 }
 
-@media only screen and (max-width: 320px) {
- .well{
-    height: 60vh;
+@media only screen and (max-width: 287px) {
+    .well{
+    height: 100%;
     
 }
 }
@@ -205,7 +205,7 @@ h3 {
 
 
 @media only screen and (max-width: 720px) {
- #col-bg-pic {
+ #col-bg-pic{
   height: 100vh;
  }
 
@@ -225,7 +225,7 @@ h3 {
  }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and  (max-width: 991px)  {
  #hide-max992 {
   display: none;
 
@@ -235,6 +235,16 @@ h3 {
  .jumbotron {
   margin-bottom: 0px;
  }
+ 
+ 
+}
+@media only screen and  (max-width: 991px) and (min-width: 288px)  {
+ 
+ 
+  .well{
+    height: 100vh;
+    
+}
 }
 
 
