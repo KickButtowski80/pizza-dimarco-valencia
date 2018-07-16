@@ -178,8 +178,7 @@ h3 {
     justify-content: center;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
-    flex-direction: column;
-    border: 1px solid black;
+    flex-direction: column; 
 }
 
 @media only screen and (max-width: 446px) {

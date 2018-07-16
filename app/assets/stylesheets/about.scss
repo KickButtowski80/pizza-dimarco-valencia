@@ -3,19 +3,17 @@
     min-height: 50vh;
     margin-bottom: 0px;
 }
-
-.col-md-12{
-    height: 100%
-}
-
-    
-        #full-img{
+#full-img{
         height: 100%;
     }
+
 @media only screen and (min-width: 769px) {
 
     #hide-min769 {
         display: none;
+    }
+         .well{
+        height: 60vh;
     }
 
 }
@@ -29,5 +27,6 @@
         min-height: 93%;
         min-height: 93vh;
     }
+
 
 }
