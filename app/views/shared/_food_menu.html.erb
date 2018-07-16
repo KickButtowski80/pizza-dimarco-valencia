@@ -1,16 +1,16 @@
-<div class="row">
- <div class="col-md-12"> <h1 class="text-center">Menu</h1></div>
-</div>  
-<div class="row well">
-   <div class="col-md-12">
-      <%= link_to lunch_url do %>
+   
+<div class="row  ">
+    <div class="col-md-12"> <h1 class="text-center">Menu</h1></div>
+   <div class="col-md-12 border-col">
+     <%= link_to lunch_url do %>
      <%= image_tag "https://logopond.com/logos/c5bc7d59b82550b592276a74c670b2b7.png", id: "lunch-logo" %>
      <span id="lunch-logo-span">Lunch</span>
    <% end %>
    </div>
 </div>
-<div class="row well fixed-bottom " >
-   <div class="col-md-12">
+ 
+<div class="row " >
+   <div class="col-md-12 border-col">
        <%= link_to dinner_path do %>            
       <span id="dinner-logo-span" >Dinner</span>           
       <%= image_tag "https://logopond.com/logos/bee47c0227b97e82b8bf5895d59c24b3.png", id: "dinner-logo" %>            

@@ -1,13 +1,3 @@
-// #full-img {
-
-//     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Pizza_in_Naples.jpg/800px-Pizza_in_Naples.jpg");
-//     background-repeat: no-repeat;
-//     background-position: center;
-//     background-size: cover;
-//     // width: 100%;
-//     // height: auto;
-// }
-
 .jumbotron {
     min-height: 60%;
     min-height: 50vh;
@@ -17,6 +7,11 @@
 .col-md-12{
     height: 100%
 }
+
+    
+        #full-img{
+        height: 100%;
+    }
 @media only screen and (min-width: 769px) {
 
     #hide-min769 {
@@ -34,4 +29,5 @@
         min-height: 93%;
         min-height: 93vh;
     }
+
 }

@@ -4,14 +4,27 @@
 .col-md-8{
  padding: 0;
 }
+.border-col{
+ border: 1px solid black;
+}
+.jumbotron{
+  display: grid; 
+  grid-gap: 2%;
+}
 
 
 @media only screen and (min-width: 720px) {
- .container-fluid,
- .col-md-4,
- .row {
-  height: 100%;
- }
+   .container-fluid,
+  .col-md-4,
+  .row {
+   height: 100%;
 
+
+  }
+  
+  .col-md-4{
+        padding-left: 100px;
+   padding-right: 100px;
+  }
 
 }

@@ -14,11 +14,7 @@
      height: 100%;
 }
 
-.well{
-    padding-left: 25px;
-    padding-right: 25px;
-    margin-bottom: 0;
-}
+ 
 
 
 @media only screen and (min-width: 769px) {
@@ -27,6 +23,10 @@
         display: none;
     }
 
+ .change-margin{
+     margin-left: 50px;
+     margin-right: 50px;
+ }
 }
 
 @media only screen and (max-width: 768px) {
@@ -36,5 +36,11 @@
         .jumbotron {
         min-height: 93%;
         min-height: 93vh;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+    #full-img{
+        height: 130vh;
     }
 }
