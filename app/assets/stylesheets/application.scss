@@ -97,7 +97,6 @@ h3 {
 }
 
 #full-img {
-
  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Pizza_in_Naples.jpg/800px-Pizza_in_Naples.jpg");
  background-repeat: no-repeat;
  background-position: center;
@@ -163,13 +162,11 @@ h3 {
  float: right;
  line-height: 155px;
 }
-
 #dinner-logo-span {
  font-size: 46px;
  float: left;
  line-height: 155px;
 }
-
 .well{
     height: 100%;
     margin: 0px;
@@ -180,24 +177,14 @@ h3 {
     flex-wrap: wrap;
     flex-direction: column; 
 }
-
- 
-
 @media only screen and (max-width: 446px) {
-
-
  #dinner-logo-span {
   display: none;
  }
-
  #lunch-logo-span {
   display: none;
  }
 }
-
-
-
-
 @media only screen and (max-width: 720px) {
  #col-bg-pic{
   height: 100%;
@@ -209,8 +196,6 @@ h3 {
  #hide-min992 {
   display: none;
  }
-
-
 }
 
 @media only screen and (width: 992px) {
@@ -227,25 +212,18 @@ h3 {
  .jumbotron {
   margin-bottom: 0px;
  }
- 
- 
 }
 @media only screen and  (max-width: 991px) and (min-width: 288px)  {
- 
- 
   .well{
     height: 100%;
     
    }
 }
-
-
 @media only screen and (min-width: 768px) {
  #lunch-logo-span1 {
   font-size: 50px;
   padding-left: 159px;
  }
-
  #dinner-logo-span1 {
   font-size: 50px;
   padding-right: 139px;
