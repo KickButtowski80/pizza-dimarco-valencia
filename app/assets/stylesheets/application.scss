@@ -215,6 +215,13 @@ h3 {
 }
 @media only screen and  (max-width: 991px) and (min-width: 288px)  {
   .well{
+    height: 100vh;
+    
+   }
+}
+
+@media only screen and  (max-width: 297px) {
+  .well{
     height: 100%;
     
    }
