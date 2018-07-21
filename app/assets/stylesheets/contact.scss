@@ -2,39 +2,25 @@
     min-height: 60%;
     min-height: 50vh;
     margin-bottom: 0px;
-  
+
 }
 
-.col-md-12{
-    height: 100%;
-}
- 
- #jumbo-height{
-   height: 60vh;
- }
 
-// @media only screen and (max-width: 991px) {
-//       #jumbo-height{
-//   height: 93vh;
-//  }
-    
-// }
 
 @media only screen and (min-width: 770px) {
 
     #hide-min769 {
-        display: none;
-        background-color: red;
+        display: none; 
     }
 
- .change-margin{
-     margin-left: 50px;
-     margin-right: 50px;
- }
- 
- #full-img{
-     height: 35vh;
- }
+    .change-margin {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    #full-img {
+        height: 35vh;
+    }
 
 }
 
@@ -42,14 +28,53 @@
     #hide-max768 {
         display: none;
     }
-   .jumbotron {
+    .jumbotron {
         min-height: 93%;
         min-height: 93vh;
         margin-left: 25px;
         margin-right: 25px;
     }
-    
- 
-    
-
 }
+
+#google-map{
+   width: 70%;
+   height: 250px;
+}
+
+@media only screen and (min-width: 770px ) and (max-width: 991px) {
+  
+  .well{
+          height: 92vh;
+  }
+}
+/*Neon*/
+p {
+  text-align: center;
+  font-size: 10em;
+  margin: 20px 0 20px 0;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+p:nth-child(1) a {
+  color: black;
+  font-family: Monoton;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+  }
+}
+

@@ -1,21 +1,18 @@
-.jumbotron{
+.jumbotron {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 @media only screen and (min-width: 720px) {
-  .container-fluid,
-  .col-md-4,
-  .row {
-   height: 100%;
-
-
-  }
-  
-  .col-md-4{
+    .container-fluid,
+    .col-md-4,
+    .row {
+        height: 100%;
+    }
+    .col-md-4 {
         padding-left: 100px;
-   padding-right: 100px;
-  }
-      
+        padding-right: 100px;
+    }
+
 }

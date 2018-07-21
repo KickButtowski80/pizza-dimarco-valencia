@@ -1,79 +1,43 @@
-<style>
-#google-map{
-   width: 70%;
-   height: 250px;
-}
-/*Neon*/
-p {
-  text-align: center;
-  font-size: 10em;
-  margin: 20px 0 20px 0;
-}
-
-a {
-  text-decoration: none;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-p:nth-child(1) a {
-  color: black;
-  font-family: Monoton;
-  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-  animation: neon1 1.5s ease-in-out infinite alternate;
-}
-
-@-webkit-keyframes neon1 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
-  }
-}
-
-
-</style>
- 
-    
-    <div class="row text-center " >
-        <h1 class='text-center'>Contact US</h1>
-        <div class="col-md-2 col-md-offset-2"  >
-           
-                <%=fa_icon "phone 4x", title: "phone number"%><br>
-                <%= number_to_phone 6612958769 %> <br> 
-                
-                <%= fa_icon 'envelope 4x', title: "address" %><br>
-                27674 Newhall Ranch Rd #45, Valencia, CA 91355<br>
-                   
-                <%= fa_icon 'clock-o 4x', title: "schedule"%>
-                 <div class="workHours"></div>
-                  
-            <div>
-              <%= fa_icon 'first-order 4x' , title: "order"%>
-              <br>
-                <a href="https://www.eat24.com/order-online/pizza-di-marco-27674-newhall-ranch-rd-ste-45-valencia/289063">Eat24</a>
-                <a href="https://www.grubhub.com/restaurant/pizza-di-marco-27674-newhall-ranch-rd-ste-45-valencia/289063">Grubhub</a>
-                <a href="https://slicelife.com/restaurants/ca/valencia/91355/pizza-di-marco/menu?slice_amp_id=00b16f4aaade3995a4e0968859466c23">Slice</a>
-            </div>
-        </div>
-        <div class="col-md-8 ">
-             <br>
-             <%= fa_icon 'map 4x', style: 'padding-bottom: 25px;', title: "map" %>
-             <br>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d6581.135107888912!2d-118.56905293778496!3d34.43773813361328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x80c27df7b78a6f8d%3A0xadcb409f5de5b0b9!2spizza+di+marco+valencia+newhall!3m2!1d34.437758099999996!2d-118.5646733!5e0!3m2!1sen!2sus!4v1527902339210" width="" height="300" frameborder="0" style=""  id="google-map" allowfullscreen></iframe>
-        
-        </div>
-        <div class="col-md-12 text-center">
-              <p>
-                  <a href="tel:+16612958769">
-                       For Delivery and Take Out Please call, 661-295-8769
-                  </a>
-              </p>
+<div class="well">
+  <div class="row text-center"  >
+    <h1 class='text-center'>Contact US</h1>
+    <div class="col-md-2 col-md-offset-2"  >
+       
+            <%=fa_icon "phone 4x", title: "phone number"%><br>
+            <%= number_to_phone 6612958769 %> <br> 
+            
+            <%= fa_icon 'envelope 4x', title: "address" %><br>
+            27674 Newhall Ranch Rd #45, Valencia, CA 91355<br>
+               
+            <%= fa_icon 'clock-o 4x', title: "schedule"%>
+             <div class="workHours"></div>
+              
+        <div>
+          <%= fa_icon 'first-order 4x' , title: "order"%>
+          <br>
+            <a href="https://www.eat24.com/order-online/pizza-di-marco-27674-newhall-ranch-rd-ste-45-valencia/289063">Eat24</a>
+            <a href="https://www.grubhub.com/restaurant/pizza-di-marco-27674-newhall-ranch-rd-ste-45-valencia/289063">Grubhub</a>
+            <a href="https://slicelife.com/restaurants/ca/valencia/91355/pizza-di-marco/menu?slice_amp_id=00b16f4aaade3995a4e0968859466c23">Slice</a>
         </div>
     </div>
+    <div class="col-md-8 ">
+         <br>
+         <%= fa_icon 'map 4x', style: 'padding-bottom: 25px;', title: "map" %>
+         <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d6581.135107888912!2d-118.56905293778496!3d34.43773813361328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x80c27df7b78a6f8d%3A0xadcb409f5de5b0b9!2spizza+di+marco+valencia+newhall!3m2!1d34.437758099999996!2d-118.5646733!5e0!3m2!1sen!2sus!4v1527902339210" width="" height="300" frameborder="0" style=""  id="google-map" allowfullscreen></iframe>
+    
+    </div>
+    <div class="col-md-12 text-center">
+          <p>
+              <a href="tel:+16612958769">
+                   For Delivery and Take Out Please call, 661-295-8769
+              </a>
+          </p>
+    </div>
+</div>
+
+</div>
+
 
 
 
