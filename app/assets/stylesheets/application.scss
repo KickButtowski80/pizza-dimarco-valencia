@@ -173,8 +173,8 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
+    // -webkit-flex-wrap: wrap;
+    // flex-wrap: wrap;
     flex-direction: column; 
 }
 @media only screen and (max-width: 446px) {
@@ -216,14 +216,14 @@ h3 {
 @media only screen and  (max-width: 991px) and (min-width: 288px)  {
   .well{
     height: 100vh;
-    
+       overflow: auto;
    }
 }
 
 @media only screen and  (max-width: 297px) {
   .well{
     height: 100%;
-    
+ 
    }
 }
 @media only screen and (min-width: 768px) {
