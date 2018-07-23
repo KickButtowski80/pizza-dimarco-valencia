@@ -1,23 +1,23 @@
 SIDE ORDERS:
-    - name: CA1AMARI
+    - name: CALAMARI
       price: $6.50
     - name: CHICKEN TENDERS
       price: $4.95	
-    - name: GAR1IC BREAD
+    - name: GARLIC BREAD
       price: $2.50 
-    - name: MEATBA11S (2)
+    - name: MEATBALLS (2)
       price: $3.50
-    - name: ITA1IAN SAUSAGE (2)
+    - name: ITALIAN SAUSAGE (2)
       price: $3.50     
     - name: FRIED ZUCCHINI w/Ranch Dressing (7)
       price: $4.95
     - name: SOUP OF THE DAY
       price: $3.50
-    - name: MOZZARE11A CHEESE STICKS w/Marinara Sauce (7)
+    - name: MOZZARELLA CHEESE STICKS w/Marinara Sauce (7)
       price: $4.95
     - name: FRENCH FRIES
       price: $3.95
-    - name: GAR1IC BREAD + CHEESE
+    - name: GARLIC BREAD + CHEESE
       price: $3.25
     - name: SIDE OF MARINARA
       price: $1.85 

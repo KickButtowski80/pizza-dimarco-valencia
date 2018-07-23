@@ -6,10 +6,10 @@ Pizza:
   ingredients: Fresh slices of Roma tomato, roasted garlic, mozzarella cheese and fresh basil. Served with choice of soup or salad and a soft drink.
   price: $9.25
 - name: Grilled Vegetable 
-  ingredients: Grilled eggplant, zucchini, roasted peppers, red onions, roasted garlic, fresh basil and Roma tomato. Served with choice of soup or salad and a soft drink.
+  ingredients: Grilled eggplant, zucchini, roasted peppers, red grilled onions, roasted garlic, fresh basil and Roma tomato. Served with choice of soup or salad and a soft drink.
   price: $9.25
 - name: Eggplant Feta 
-  ingredients: Grilled marinated eggplant, feta cheese, sun-dried tomato and tomato sauce. Served with choice of soup or salad and a soft drink.
+  ingredients: Grilled marinated eggplant, feta cheese, sun-dried tomato and pizza sauce. Served with choice of soup or salad and a soft drink.
   price: $9.25
 - name: Vegetarian 
   ingredients: Mushrooms, green peppers, onions, olives and tomatoes. Served with choice of soup or salad and a soft drink.

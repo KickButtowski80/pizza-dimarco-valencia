@@ -6,7 +6,7 @@ Hot Sandwiches:
   ingredients: Lean slices of pastrami, mozzarella, pickles, and mustard. Served with chips.
   price: $7.55
 - name: Chicken Parmesan 
-  ingredients: Chicken breast, mozzarella cheese, and Italian tomato sauce. Served with chips.
+  ingredients: Chicken breast, mozzarella cheese, and Italian marinara sauce. Served with chips.
   price: $7.55
 - name: Club 
   ingredients: Sliced roast beef, turkey, and ham, served with lettuce, tomatoes, mozzarella cheese, and mayonnaise. Served with chips.
@@ -15,10 +15,10 @@ Hot Sandwiches:
   ingredients: Breast of chicken, mozzarella cheese, lettuce, tomatoes, and mayonnaise. Served with chips.
   price: $7.55
 - name: Meatball and Cheese 
-  ingredients: Homemade meatballs, melted mozzarella cheese, and Italian tomato sauce. Served with chips.
+  ingredients: Homemade meatballs, melted mozzarella cheese, and Italian marinara sauce. Served with chips.
   price: $7.55
 - name: Eggplant Parmesan 
-  ingredients: Slices of breaded eggplant, melted mozzarella cheese, and Italian tomato sauce. Served with chips.
+  ingredients: Slices of breaded eggplant, melted mozzarella cheese, and Italian marinara sauce. Served with chips.
   price: $7.55
 - name: Ham and Cheese 
   ingredients: Slices of ham, lettuce, tomatoes, mozzarella cheese, and mayonnaise. Served with chips.
@@ -27,10 +27,10 @@ Hot Sandwiches:
   ingredients: Salami, Canadian bacon, pepperoni, mozzarella cheese, lettuce, tomatoes, and mayonnaise. Served with chips.
   price: $7.55
 - name: Italian Sausage and Cheese 
-  ingredients: Italian sausage links, melted mozzarella cheese, and Italian tomato sauce. Served with chips.
+  ingredients: Italian sausage links, melted mozzarella cheese, and Italian marinara sauce. Served with chips.
   price: $7.55
 - name: Chicken Bacon Avocado 
-  ingredients: Grilled chicken breast, slices of avocado, lettuce, tomato, slices of cucumber, shredded carrots, alfalfa sprouts, mayonnaise, and Dijon mustard on choice of sourdough or whole wheat.
+  ingredients: Grilled chicken breast, slices of avocado, lettuce, tomato, slices of cucumber, shredded carrots, alfalfa sprouts, mayonnaise, and Dijon mustard on an Italian Roll. Choice of sourdough or whole wheat available.
   price: $8.95
 - name: BBQ Chicken 
   ingredients: Grilled chicken breast with BBQ sauce, grilled red onions, lettuce, tomato, melted mozzarella, and mayonnaise on Italian roll.

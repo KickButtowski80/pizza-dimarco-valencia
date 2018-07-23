@@ -1,13 +1,13 @@
 Pizza: 
 - name: Mozzarella Cheese
-  ingredients: mainly cheese :)
+  ingredients: Cheese
   price:
       - $10.95
       - $13.45
       - $15.35
       - $17.95
 - name: Toppings & Extra Cheese
-  ingredients: mainly cheese :)
+  ingredients: Toppings & Extra Cheese
   price:
       - $1.65
       - $2.10
@@ -27,7 +27,7 @@ Pizza:
      - $17.75
      - $19.95
      - $22.95
-  ingredients: Fresh Mushrooms, Black Olive, Bell Peppers, Onion and Fresh Tomato.
+  ingredients: Fresh Mushroom, Black Olive, Bell Pepper, Onion and Fresh Tomato.
 
 - name: ALL MEAT SPECIAL
   price:
@@ -36,13 +36,14 @@ Pizza:
      - $22.95
      - $26.95
   ingredients: Pepperoni, Salami, Ham and Italian Sausage.
+  
 - name: HAWAIIAN SPECIAL
   price:
      - $14.35
      - $16.95
      - $19.95
      - $23.95
-  ingredients: Canadian Style Bacon and Pineapple.
+  ingredients: Canadian Bacon and Pineapple.
 
 - name: CHICKEN SPECIAL
   price:
