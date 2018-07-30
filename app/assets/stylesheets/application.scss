@@ -70,7 +70,9 @@ body {
  margin-bottom: 5px;
  margin-top: 10px;
 }
-
+.card-title{
+ color: #b6e2b6;
+}
 .card:hover {
  color: white;
  box-shadow: 20px 20px 50px grey;
@@ -93,7 +95,7 @@ h1{
 }
 
 h3 {
- color: green;
+ color: #b6e2b6;
  font-weight: 600;
  font-size: 20px; 
  margin-top: 10px;
