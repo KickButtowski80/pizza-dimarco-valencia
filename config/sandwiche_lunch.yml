@@ -1,29 +1,43 @@
-sandwich: 
+sandwiches: 
 - name: Roast Beef
   price: $8.25
+  ingredients: Sliced roast beef, mozzarella, tomatoes, lettuce and mayonnaise.
 - name: Pastrami
   price: $8.25
+  ingredients: Lean slices of pastrami, mozzareella, pickles, and mustard. 
 - name: Chicken Parmesan 
   price: $8.25
+  ingredients: Chicken Breast, mozzarella cheese and italian marinara sauce.
 - name: Club
   price: $8.25
+  ingredients: Sliced roast beef, turkey and ham. Served with lettuce, tomatoes, mozzarella cheese and mayonnaise. 
 - name: Chicken Sub
   price: $8.25
+  ingredients: Breast of Chicken, mozzarella cheese, lettuce, tomatoes and mayonnaise.
 - name: Meatball & Cheese
   price: $8.25
-- name: Italian Sausage & Cheese
+  ingredients: Homemade meatballs, melted mozzarella cheese and Italian marianara sauce.
+- name: Italian Sausage and Cheese
   price: $8.25
-- name: Eggplant
+  ingredients: Sausage, melted mozzarella cheese and Italian marianara sauce
+- name: Eggplant Parmesan
   price: $8.25
+  ingredients: Slices of breaded eggplant, melted mozzarella cheese and Italian marianara sauce. 
 - name: Ham & Cheese
   price: $8.25
+  ingredients: Slices of ham, lettuce, tomatoes, mozzarella cheese and mayonnaise.
 - name: Hero
   price: $8.25
+  ingredients: Salami, Canadian Bacon, Pepperoni, mozzarella cheese, lettuce, tomatoes and mayonnaise.
 - name: Avocado & Cheese
   price: $8.25
+  ingredients: Fresh avocado slices, mozzarella cheese, black olives, lettuce, tomatoes and mayonnaise.
 - name: Submarine
   price: $8.25
+  ingredients: Salami, Canadian Bacon, Ham, mozzarella cheese, lettuce, tomatoes, and mayonnaise.
 - name: Turkey 
   price: $8.25
+  ingredients: Sliced turkey, lettuce, tomatoes, mozzarella cheese and mayonnaise.
 - name: Tuna Salad
   price: $8.99
+  ingredients: Solid white albacore tuna salad with lettuce, tomatoes, slices of cucumber, alfalfa sprouts, shredded carrots, mayonnaise and dijon on your choice of bread.
