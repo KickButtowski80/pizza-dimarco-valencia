@@ -7,7 +7,8 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.6'
+#gem 'rails', '~> 5.1.6'
+gem 'rails', '~> 5.2', '>= 5.2.1'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
@@ -62,5 +63,5 @@ gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'rails_12factor', group: :production
 gem 'font-awesome-rails'
-gem 'rubocop', '~> 0.39.0'
+gem 'dotenv-rails', groups: [:development, :test]
 
